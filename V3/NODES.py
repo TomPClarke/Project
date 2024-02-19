@@ -46,13 +46,17 @@ class End_Node:
         self.master = FM(master_name)
 
 class Consumer(End_Node):
-    def recieve(self, data):
+    def recieve(self, data, port = 0):
         self.data.put(data)
+    #This shouldn't be here
+    def first_open_port(self):
+        return 0
 
 class Producer(End_Node):
     def __init__(self,name):
         super().__init__(name)
         self.holding = False
+        self.current_port = -1
     #This gives the producer some data
     Consumer_Nearest_Router = {'Con0' : [2,0],
                                'Con1' : [0,0],
@@ -69,7 +73,6 @@ class Producer(End_Node):
             self.holding = False
         else:
             self.holding = False
-
 
     def produce_message(self, data, target):
         #Include the header
@@ -107,10 +110,23 @@ class Producer(End_Node):
         return path
     
     def send(self):
+        if(self.data.empty()):
+            return
         if(self.holding == False):
-            if(self.data.empty()):
-                return
-            self.master.recieve(self.data.get())
+            if(self.current_port == -1):
+                self.current_port = self.master.first_open_port()
+            flit = self.data.get()
+            self.master.recieve(flit)
+            if(flit == "FREE"):
+                self.current_port = -1
+
+class Port():
+    def __init__(self):
+        self.direction = "FREE"
+        self.data = Queue()
+        self.outbound_port = -1
+        self.holding = False
+
 
 class Router():
     def __init__(self,name):
@@ -118,11 +134,12 @@ class Router():
         self.name = name
         self.holding = False
         self.direction = "FREE"
+        self.ports = [Port(),Port(),Port(),Port()]
         self.routing = {'UP' : self,
                         'DOWN' : self,
                         'LEFT' : self,
                         'RIGHT' : self,
-                        'SLAVE' : self}
+                        'SLAVE' : self} #Might Rename this to Local
     def declare_table(self,UDLR,SLAVE = 0):
         self.routing["UP"] = FM(UDLR[0])
         self.routing["DOWN"] = FM(UDLR[1])
@@ -131,7 +148,23 @@ class Router():
         if(SLAVE != 0):
             self.routing["SLAVE"] = FM(SLAVE)
 
-    def recieve(self, flit):
+    def first_open_port(self):
+        for x in range(0,4):
+            if(self.ports[x].direction == "FREE"):
+                #If two Routers ask me for my first port.
+                #Will I give them a different port.
+                return x
+
+
+    def recieve(self, flit, port = 0):
+        if(self.ports[port].direction == "FREE"):
+            if(flit in ["DOWN","LEFT","UP","RIGHT"]):
+                self.ports[port].direction = flit
+            else:
+                self.ports[port].direction = "SLAVE"
+        else:
+            self.ports[port].data.put(flit)
+        """
         if(self.direction == "FREE"):
             if(flit in ["DOWN","LEFT","UP","RIGHT"]):
                 self.direction = flit
@@ -140,17 +173,19 @@ class Router():
                 pass
         else:
             self.data.put(flit)
-
+        """
     #Every router is told: 
     #If you haven't got anything at the beginning of the clock cycle,
     #Do not send anything this clock cycle, to keep the illusion of synchronisation
     def hold_on(self):
-        if(self.data.empty()):
-            self.holding = True
-        else:
-            self.holding = False
+        for port in self.ports:
+            if(port.data.empty()):
+                port.holding = True
+            else:
+                port.holding = False
 
     def send(self):
+        """
         if(self.direction == "FREE" or self.data.empty() or self.holding):
             #If we don't have no direction or no data
             #Don't do anything
@@ -159,6 +194,19 @@ class Router():
         flit = self.data.get()
         self.routing[self.direction].recieve(flit)
         if(flit == "FREE"): self.direction = "FREE"
+        """
+        #return
+        for port in self.ports:
+            if(port.direction == "FREE" or port.data.empty() or port.holding):
+                continue
+            if(port.outbound_port == -1):
+                if(port.direction == "SLAVE"): pass
+                else : port.outbound_port = self.routing[port.direction].first_open_port()
+            flit = port.data.get()
+            self.routing[port.direction].recieve(flit, port.outbound_port)
+            if(flit == "FREE"): 
+                port.direction = "FREE"
+                port.outbound_port = -1        
 
 
 Consumers = [Consumer("Con0"),Consumer("Con1"),Consumer("Con2")]
