@@ -46,25 +46,32 @@ class End_Node:
         self.master = FM(master_name)
 
 class Consumer(End_Node):
-    def recieve(self, data, port = 0):
+    def recieve(self, data, port):
+        if(port == 1):
+            return
         self.data.put(data)
-    #This shouldn't be here
-    def first_open_port(self):
-        return 0
+    def Empty(self):
+        while(not self.data.empty()):
+            self.data.get()
+        return
+
 
 class Producer(End_Node):
     def __init__(self,name):
         super().__init__(name)
         self.holding = False
-        self.current_port = -1
+        self.landing_port = -1
     #This gives the producer some data
     Consumer_Nearest_Router = {'Con0' : [2,0],
                                'Con1' : [0,0],
-                               'Con2' : [1,2]}
+                               'Con2' : [1,2],
+                               'Con3' : [1,1]}
     
     Producer_Nearest_Router = {'Prod0' : [2,2],
                                'Prod1' : [1,0],
-                               'Prod2' : [0,2]}
+                               'Prod2' : [0,2],
+                               'Prod3' : [0,1],
+                               'Prod4' : [2,1]}
     
     #I will keep this for now,
     #But why Would a producer need to hold data ever?
@@ -74,9 +81,10 @@ class Producer(End_Node):
         else:
             self.holding = False
 
-    def produce_message(self, data, target):
+    def produce_message(self, data, target,channel = 0):
         #Include the header
         path = self.find_path(target)
+        self.data.put(channel)
         for x in path:
             self.data.put(x)
         #Include the data
@@ -113,18 +121,18 @@ class Producer(End_Node):
         if(self.data.empty()):
             return
         if(self.holding == False):
-            if(self.current_port == -1):
-                self.current_port = self.master.first_open_port()
+            if(self.landing_port == -1):
+                self.landing_port = int(self.data.get())
             flit = self.data.get()
-            self.master.recieve(flit)
+            self.master.recieve(flit,self.landing_port)
             if(flit == "FREE"):
-                self.current_port = -1
+                self.landing_port = -1
 
 class Port():
     def __init__(self):
         self.direction = "FREE"
         self.data = Queue()
-        self.outbound_port = -1
+        self.landing_port = -1
         self.holding = False
 
 
@@ -134,12 +142,12 @@ class Router():
         self.name = name
         self.holding = False
         self.direction = "FREE"
-        self.ports = [Port(),Port(),Port(),Port()]
+        self.ports = [Port(),Port(),Port(),Port(),Port(),Port(),Port(),Port(),Port(),Port()]
         self.routing = {'UP' : self,
                         'DOWN' : self,
                         'LEFT' : self,
                         'RIGHT' : self,
-                        'SLAVE' : self} #Might Rename this to Local
+                        'SLAVE' : self}
     def declare_table(self,UDLR,SLAVE = 0):
         self.routing["UP"] = FM(UDLR[0])
         self.routing["DOWN"] = FM(UDLR[1])
@@ -147,13 +155,6 @@ class Router():
         self.routing["RIGHT"] = FM(UDLR[3])
         if(SLAVE != 0):
             self.routing["SLAVE"] = FM(SLAVE)
-
-    def first_open_port(self):
-        for x in range(0,4):
-            if(self.ports[x].direction == "FREE"):
-                #If two Routers ask me for my first port.
-                #Will I give them a different port.
-                return x
 
 
     def recieve(self, flit, port = 0):
@@ -164,16 +165,6 @@ class Router():
                 self.ports[port].direction = "SLAVE"
         else:
             self.ports[port].data.put(flit)
-        """
-        if(self.direction == "FREE"):
-            if(flit in ["DOWN","LEFT","UP","RIGHT"]):
-                self.direction = flit
-            else:
-                self.direction = "SLAVE"
-                pass
-        else:
-            self.data.put(flit)
-        """
     #Every router is told: 
     #If you haven't got anything at the beginning of the clock cycle,
     #Do not send anything this clock cycle, to keep the illusion of synchronisation
@@ -184,32 +175,32 @@ class Router():
             else:
                 port.holding = False
 
+    def find_landing_port(self, direction,channel = 0):
+        if(direction == "SLAVE"): return (0 + channel)
+        if(direction == "UP"): return (2 + channel)    
+        elif(direction == "RIGHT"): return (4 + channel)       
+        elif(direction == "DOWN"): return (6 + channel)
+        elif(direction == "LEFT"): return (8 + channel)
+
+
     def send(self):
-        """
-        if(self.direction == "FREE" or self.data.empty() or self.holding):
-            #If we don't have no direction or no data
-            #Don't do anything
-            return
-        #Otherwise
-        flit = self.data.get()
-        self.routing[self.direction].recieve(flit)
-        if(flit == "FREE"): self.direction = "FREE"
-        """
-        #return
+        port_num = -1
         for port in self.ports:
+            port_num += 1
             if(port.direction == "FREE" or port.data.empty() or port.holding):
                 continue
-            if(port.outbound_port == -1):
+            if(port.landing_port == -1):
                 if(port.direction == "SLAVE"): pass
-                else : port.outbound_port = self.routing[port.direction].first_open_port()
+                else : 
+                    port.landing_port = self.find_landing_port(port.direction,(port_num % 2))
             flit = port.data.get()
-            self.routing[port.direction].recieve(flit, port.outbound_port)
+            self.routing[port.direction].recieve(flit, port.landing_port)
             if(flit == "FREE"): 
                 port.direction = "FREE"
-                port.outbound_port = -1        
+                port.landing_port = -1        
 
 
-Consumers = [Consumer("Con0"),Consumer("Con1"),Consumer("Con2")]
-Producers = [Producer("Prod0"),Producer("Prod1"),Producer("Prod2")]
+Consumers = [Consumer("Con0"),Consumer("Con1"),Consumer("Con2"),Consumer("Con3")]
+Producers = [Producer("Prod0"),Producer("Prod1"),Producer("Prod2"),Producer("Prod3"),Producer("Prod4")]
 Routers = [Router("Rout0"),Router("Rout1"),Router("Rout2"),Router("Rout3"),
            Router("Rout4"),Router("Rout5"),Router("Rout6"),Router("Rout7"), Router("Rout8")]
