@@ -1,5 +1,6 @@
 from PyQt5.QtCore import Qt
-from PyQt5.QtWidgets import QApplication, QMainWindow, QLabel, QVBoxLayout, QWidget, QPushButton, QHBoxLayout
+from PyQt5.QtWidgets import QApplication,QMainWindow, QLabel, QVBoxLayout, QWidget, QPushButton, QHBoxLayout
+from PyQt5.QtGui import QPixmap
 import sys
 
 class Window(QMainWindow):
