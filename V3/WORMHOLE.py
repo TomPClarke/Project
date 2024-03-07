@@ -3,8 +3,8 @@
 MAX_LINE_LENGTH = 128
 
 
-
-from NODES import FM, Routers, Consumers, Producers
+from Tools import FM
+from NODES import Routers, Consumers, Producers
 import keyboard, time, random
 
 
@@ -70,27 +70,27 @@ But we want this:
         C1--P1--C0                  
 """
 
-FM("Rout0").declare_table(["Rout1","Rout5","Rout7","Rout3"],"Con3")
-FM("Rout1").declare_table(["Rout1","Rout0","Rout8","Rout2"],"Con2")
-FM("Rout2").declare_table(["Rout2","Rout3","Rout1","Rout2"],)
-FM("Rout3").declare_table(["Rout2","Rout4","Rout0","Rout3"],)
-FM("Rout4").declare_table(["Rout3","Rout4","Rout5","Rout4"],"Con0")
-FM("Rout5").declare_table(["Rout0","Rout5","Rout6","Rout4"],)
-FM("Rout6").declare_table(["Rout7","Rout6","Rout6","Rout5"],"Con1")
-FM("Rout7").declare_table(["Rout8","Rout6","Rout7","Rout0"],)
-FM("Rout8").declare_table(["Rout8","Rout7","Rout8","Rout1"])
+FM("Rout0").declare_table([FM("Rout1"),FM("Rout5"),FM("Rout7"),FM("Rout3")  ],FM("Con3"))
+FM("Rout1").declare_table([FM("Rout1"),FM("Rout0"),FM("Rout8"),FM("Rout2")  ],FM("Con2"))
+FM("Rout2").declare_table([FM("Rout2"),FM("Rout3"),FM("Rout1"),FM("Rout2")  ],)
+FM("Rout3").declare_table([FM("Rout2"),FM("Rout4"),FM("Rout0"),FM("Rout3")  ],)
+FM("Rout4").declare_table([FM("Rout3"),FM("Rout4"),FM("Rout5"),FM("Rout4")  ],FM("Con0"))
+FM("Rout5").declare_table([FM("Rout0"),FM("Rout5"),FM("Rout6"),FM("Rout4")  ],)
+FM("Rout6").declare_table([FM("Rout7"),FM("Rout6"),FM("Rout6"),FM("Rout5")  ],FM("Con1"))
+FM("Rout7").declare_table([FM("Rout8"),FM("Rout6"),FM("Rout7"),FM("Rout0")  ],)
+FM("Rout8").declare_table([FM("Rout8"),FM("Rout7"),FM("Rout8"),FM("Rout1")  ])
 
 #I think this is probably redudant, code above could handle masters and slaves
-FM("Con0").declare_master("Rout4")
-FM("Con1").declare_master("Rout6")
-FM("Con2").declare_master("Rout1")
-FM("Con3").declare_master("Rout0")
+FM("Con0").declare_master(FM("Rout4"))
+FM("Con1").declare_master(FM("Rout6"))
+FM("Con2").declare_master(FM("Rout1"))
+FM("Con3").declare_master(FM("Rout0"))
 
-FM("Prod0").declare_master("Rout2")
-FM("Prod1").declare_master("Rout5")
-FM("Prod2").declare_master("Rout8")
-FM("Prod3").declare_master("Rout7")
-FM("Prod4").declare_master("Rout3")
+FM("Prod0").declare_master(FM("Rout2"))
+FM("Prod1").declare_master(FM("Rout5"))
+FM("Prod2").declare_master(FM("Rout8"))
+FM("Prod3").declare_master(FM("Rout7"))
+FM("Prod4").declare_master(FM("Rout3"))
 
 update_UI()
 ###### Task Scheduler ######
