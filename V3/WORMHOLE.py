@@ -43,20 +43,7 @@ def update_UI():
     time.sleep(0.1)
 
 """
-We Have this:
-
-        P2  C2  P0              
-         |   |   |         
-         8---1---2         
-         |   |   |         
-         7---O---3         
-         |   |   |         
-         6---5---4         
-         |   |   |         
-         C1  P1  C0     
-
-But we want this:
-      
+Chip Layout:
          8---1---2         
          |   |   |         
          7---O---3         
