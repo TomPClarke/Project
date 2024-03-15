@@ -516,7 +516,7 @@
     <zorder>Buffer_LEFT</zorder>
     <zorder>Buffer_Slave</zorder>
    </widget>
-   <widget class="QWidget" name="Router8_2" native="true">
+   <widget class="QWidget" name="Rout1" native="true">
     <property name="geometry">
      <rect>
       <x>800</x>
@@ -537,7 +537,7 @@
      <property name="styleSheet">
       <string notr="true">background-color: rgba(0,0,0,0)</string>
      </property>
-     <widget class="QWidget" name="widget_5" native="true">
+     <widget class="QWidget" name="HighC_11" native="true">
       <property name="geometry">
        <rect>
         <x>50</x>
@@ -550,7 +550,7 @@
        <string notr="true">background-color: green</string>
       </property>
      </widget>
-     <widget class="QWidget" name="widget_13" native="true">
+     <widget class="QWidget" name="HighB_11" native="true">
       <property name="geometry">
        <rect>
         <x>50</x>
@@ -563,7 +563,7 @@
        <string notr="true">background-color: green</string>
       </property>
      </widget>
-     <widget class="QWidget" name="widget_14" native="true">
+     <widget class="QWidget" name="HighA_11" native="true">
       <property name="geometry">
        <rect>
         <x>50</x>
@@ -576,7 +576,7 @@
        <string notr="true">background-color: green</string>
       </property>
      </widget>
-     <widget class="QWidget" name="widget_21" native="true">
+     <widget class="QWidget" name="LowC_11" native="true">
       <property name="geometry">
        <rect>
         <x>25</x>
@@ -589,7 +589,7 @@
        <string notr="true">background-color: green</string>
       </property>
      </widget>
-     <widget class="QWidget" name="widget_28" native="true">
+     <widget class="QWidget" name="LowB_11" native="true">
       <property name="geometry">
        <rect>
         <x>25</x>
@@ -602,7 +602,7 @@
        <string notr="true">background-color: green</string>
       </property>
      </widget>
-     <widget class="QWidget" name="High0_3" native="true">
+     <widget class="QWidget" name="LowA_11" native="true">
       <property name="geometry">
        <rect>
         <x>25</x>
@@ -628,7 +628,7 @@
      <property name="styleSheet">
       <string notr="true">background-color: rgba(0,0,0,0)</string>
      </property>
-     <widget class="QWidget" name="widget_35" native="true">
+     <widget class="QWidget" name="HighA_14" native="true">
       <property name="geometry">
        <rect>
         <x>50</x>
@@ -641,7 +641,7 @@
        <string notr="true">background-color: green</string>
       </property>
      </widget>
-     <widget class="QWidget" name="widget_36" native="true">
+     <widget class="QWidget" name="HighB_14" native="true">
       <property name="geometry">
        <rect>
         <x>50</x>
@@ -654,7 +654,7 @@
        <string notr="true">background-color: green</string>
       </property>
      </widget>
-     <widget class="QWidget" name="widget_37" native="true">
+     <widget class="QWidget" name="HighC_14" native="true">
       <property name="geometry">
        <rect>
         <x>50</x>
@@ -667,7 +667,7 @@
        <string notr="true">background-color: green</string>
       </property>
      </widget>
-     <widget class="QWidget" name="widget_38" native="true">
+     <widget class="QWidget" name="LowA_14" native="true">
       <property name="geometry">
        <rect>
         <x>25</x>
@@ -680,7 +680,7 @@
        <string notr="true">background-color: green</string>
       </property>
      </widget>
-     <widget class="QWidget" name="widget_39" native="true">
+     <widget class="QWidget" name="LowB_14" native="true">
       <property name="geometry">
        <rect>
         <x>25</x>
@@ -693,7 +693,7 @@
        <string notr="true">background-color: green</string>
       </property>
      </widget>
-     <widget class="QWidget" name="widget_40" native="true">
+     <widget class="QWidget" name="LowC_14" native="true">
       <property name="geometry">
        <rect>
         <x>25</x>
@@ -735,7 +735,7 @@
      <property name="styleSheet">
       <string notr="true">background-color: rgba(0,0,0,0)</string>
      </property>
-     <widget class="QWidget" name="widget_41" native="true">
+     <widget class="QWidget" name="HighC_13" native="true">
       <property name="geometry">
        <rect>
         <x>73</x>
@@ -748,7 +748,7 @@
        <string notr="true">background-color: green</string>
       </property>
      </widget>
-     <widget class="QWidget" name="widget_42" native="true">
+     <widget class="QWidget" name="LowB_13" native="true">
       <property name="geometry">
        <rect>
         <x>49</x>
@@ -761,7 +761,7 @@
        <string notr="true">background-color: green</string>
       </property>
      </widget>
-     <widget class="QWidget" name="widget_43" native="true">
+     <widget class="QWidget" name="HighB_13" native="true">
       <property name="geometry">
        <rect>
         <x>49</x>
@@ -774,7 +774,7 @@
        <string notr="true">background-color: green</string>
       </property>
      </widget>
-     <widget class="QWidget" name="widget_44" native="true">
+     <widget class="QWidget" name="LowC_13" native="true">
       <property name="geometry">
        <rect>
         <x>73</x>
@@ -787,7 +787,7 @@
        <string notr="true">background-color: green</string>
       </property>
      </widget>
-     <widget class="QWidget" name="widget_45" native="true">
+     <widget class="QWidget" name="LowA_13" native="true">
       <property name="geometry">
        <rect>
         <x>25</x>
@@ -800,7 +800,7 @@
        <string notr="true">background-color: green</string>
       </property>
      </widget>
-     <widget class="QWidget" name="widget_46" native="true">
+     <widget class="QWidget" name="HighA_13" native="true">
       <property name="geometry">
        <rect>
         <x>25</x>
@@ -826,7 +826,7 @@
      <property name="styleSheet">
       <string notr="true">background-color: rgba(0,0,0,0)</string>
      </property>
-     <widget class="QWidget" name="LEFTHigh0_2" native="true">
+     <widget class="QWidget" name="HighA_12" native="true">
       <property name="geometry">
        <rect>
         <x>73</x>
@@ -839,7 +839,7 @@
        <string notr="true">background-color: green</string>
       </property>
      </widget>
-     <widget class="QWidget" name="LEFTLow1_2" native="true">
+     <widget class="QWidget" name="LowB_12" native="true">
       <property name="geometry">
        <rect>
         <x>49</x>
@@ -852,7 +852,7 @@
        <string notr="true">background-color: green</string>
       </property>
      </widget>
-     <widget class="QWidget" name="LEFTHigh1_2" native="true">
+     <widget class="QWidget" name="HighB_12" native="true">
       <property name="geometry">
        <rect>
         <x>49</x>
@@ -865,7 +865,7 @@
        <string notr="true">background-color: green</string>
       </property>
      </widget>
-     <widget class="QWidget" name="LEFTLow0_2" native="true">
+     <widget class="QWidget" name="LowA_12" native="true">
       <property name="geometry">
        <rect>
         <x>73</x>
@@ -878,7 +878,7 @@
        <string notr="true">background-color: green</string>
       </property>
      </widget>
-     <widget class="QWidget" name="LEFTLow2_2" native="true">
+     <widget class="QWidget" name="LowC_12" native="true">
       <property name="geometry">
        <rect>
         <x>25</x>
@@ -891,7 +891,7 @@
        <string notr="true">background-color: green</string>
       </property>
      </widget>
-     <widget class="QWidget" name="LEFTHigh2_2" native="true">
+     <widget class="QWidget" name="HighC_12" native="true">
       <property name="geometry">
        <rect>
         <x>25</x>
@@ -910,2652 +910,6 @@
     <zorder>Buffer_UP_2</zorder>
     <zorder>Buffer_RIGHT_2</zorder>
     <zorder>Buffer_LEFT_2</zorder>
-   </widget>
-   <widget class="QWidget" name="Router8_4" native="true">
-    <property name="geometry">
-     <rect>
-      <x>800</x>
-      <y>360</y>
-      <width>291</width>
-      <height>331</height>
-     </rect>
-    </property>
-    <widget class="QWidget" name="Buffer_DOWN_4" native="true">
-     <property name="geometry">
-      <rect>
-       <x>97</x>
-       <y>206</y>
-       <width>81</width>
-       <height>80</height>
-      </rect>
-     </property>
-     <property name="styleSheet">
-      <string notr="true">background-color: rgba(0,0,0,0)</string>
-     </property>
-     <widget class="QWidget" name="widget_7" native="true">
-      <property name="geometry">
-       <rect>
-        <x>50</x>
-        <y>50</y>
-        <width>22</width>
-        <height>22</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">background-color: green</string>
-      </property>
-     </widget>
-     <widget class="QWidget" name="widget_29" native="true">
-      <property name="geometry">
-       <rect>
-        <x>50</x>
-        <y>26</y>
-        <width>22</width>
-        <height>22</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">background-color: green</string>
-      </property>
-     </widget>
-     <widget class="QWidget" name="widget_30" native="true">
-      <property name="geometry">
-       <rect>
-        <x>50</x>
-        <y>2</y>
-        <width>22</width>
-        <height>22</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">background-color: green</string>
-      </property>
-     </widget>
-     <widget class="QWidget" name="widget_31" native="true">
-      <property name="geometry">
-       <rect>
-        <x>25</x>
-        <y>50</y>
-        <width>22</width>
-        <height>22</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">background-color: green</string>
-      </property>
-     </widget>
-     <widget class="QWidget" name="widget_32" native="true">
-      <property name="geometry">
-       <rect>
-        <x>25</x>
-        <y>26</y>
-        <width>22</width>
-        <height>22</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">background-color: green</string>
-      </property>
-     </widget>
-     <widget class="QWidget" name="High0_5" native="true">
-      <property name="geometry">
-       <rect>
-        <x>25</x>
-        <y>2</y>
-        <width>22</width>
-        <height>22</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">background-color: green</string>
-      </property>
-     </widget>
-    </widget>
-    <widget class="QWidget" name="Buffer_UP_4" native="true">
-     <property name="geometry">
-      <rect>
-       <x>97</x>
-       <y>36</y>
-       <width>120</width>
-       <height>80</height>
-      </rect>
-     </property>
-     <property name="styleSheet">
-      <string notr="true">background-color: rgba(0,0,0,0)</string>
-     </property>
-     <widget class="QWidget" name="widget_64" native="true">
-      <property name="geometry">
-       <rect>
-        <x>50</x>
-        <y>50</y>
-        <width>22</width>
-        <height>22</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">background-color: green</string>
-      </property>
-     </widget>
-     <widget class="QWidget" name="widget_65" native="true">
-      <property name="geometry">
-       <rect>
-        <x>50</x>
-        <y>26</y>
-        <width>22</width>
-        <height>22</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">background-color: green</string>
-      </property>
-     </widget>
-     <widget class="QWidget" name="widget_66" native="true">
-      <property name="geometry">
-       <rect>
-        <x>50</x>
-        <y>2</y>
-        <width>22</width>
-        <height>22</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">background-color: green</string>
-      </property>
-     </widget>
-     <widget class="QWidget" name="widget_67" native="true">
-      <property name="geometry">
-       <rect>
-        <x>25</x>
-        <y>50</y>
-        <width>22</width>
-        <height>22</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">background-color: green</string>
-      </property>
-     </widget>
-     <widget class="QWidget" name="widget_68" native="true">
-      <property name="geometry">
-       <rect>
-        <x>25</x>
-        <y>26</y>
-        <width>22</width>
-        <height>22</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">background-color: green</string>
-      </property>
-     </widget>
-     <widget class="QWidget" name="widget_69" native="true">
-      <property name="geometry">
-       <rect>
-        <x>25</x>
-        <y>2</y>
-        <width>22</width>
-        <height>22</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">background-color: green</string>
-      </property>
-     </widget>
-    </widget>
-    <widget class="QLabel" name="label_4">
-     <property name="geometry">
-      <rect>
-       <x>20</x>
-       <y>-6</y>
-       <width>291</width>
-       <height>331</height>
-      </rect>
-     </property>
-     <property name="text">
-      <string/>
-     </property>
-     <property name="pixmap">
-      <pixmap>../Images/Consumer_Router.png</pixmap>
-     </property>
-    </widget>
-    <widget class="QWidget" name="Buffer_RIGHT_4" native="true">
-     <property name="geometry">
-      <rect>
-       <x>170</x>
-       <y>133</y>
-       <width>120</width>
-       <height>80</height>
-      </rect>
-     </property>
-     <property name="styleSheet">
-      <string notr="true">background-color: rgba(0,0,0,0)</string>
-     </property>
-     <widget class="QWidget" name="widget_70" native="true">
-      <property name="geometry">
-       <rect>
-        <x>73</x>
-        <y>2</y>
-        <width>22</width>
-        <height>22</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">background-color: green</string>
-      </property>
-     </widget>
-     <widget class="QWidget" name="widget_71" native="true">
-      <property name="geometry">
-       <rect>
-        <x>49</x>
-        <y>27</y>
-        <width>22</width>
-        <height>22</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">background-color: green</string>
-      </property>
-     </widget>
-     <widget class="QWidget" name="widget_72" native="true">
-      <property name="geometry">
-       <rect>
-        <x>49</x>
-        <y>2</y>
-        <width>22</width>
-        <height>22</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">background-color: green</string>
-      </property>
-     </widget>
-     <widget class="QWidget" name="widget_73" native="true">
-      <property name="geometry">
-       <rect>
-        <x>73</x>
-        <y>27</y>
-        <width>22</width>
-        <height>22</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">background-color: green</string>
-      </property>
-     </widget>
-     <widget class="QWidget" name="widget_74" native="true">
-      <property name="geometry">
-       <rect>
-        <x>25</x>
-        <y>27</y>
-        <width>22</width>
-        <height>22</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">background-color: green</string>
-      </property>
-     </widget>
-     <widget class="QWidget" name="widget_75" native="true">
-      <property name="geometry">
-       <rect>
-        <x>25</x>
-        <y>2</y>
-        <width>22</width>
-        <height>22</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">background-color: green</string>
-      </property>
-     </widget>
-    </widget>
-    <widget class="QWidget" name="Buffer_LEFT_4" native="true">
-     <property name="geometry">
-      <rect>
-       <x>1</x>
-       <y>133</y>
-       <width>120</width>
-       <height>80</height>
-      </rect>
-     </property>
-     <property name="styleSheet">
-      <string notr="true">background-color: rgba(0,0,0,0)</string>
-     </property>
-     <widget class="QWidget" name="LEFTHigh0_4" native="true">
-      <property name="geometry">
-       <rect>
-        <x>73</x>
-        <y>2</y>
-        <width>22</width>
-        <height>22</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">background-color: green</string>
-      </property>
-     </widget>
-     <widget class="QWidget" name="LEFTLow1_4" native="true">
-      <property name="geometry">
-       <rect>
-        <x>49</x>
-        <y>27</y>
-        <width>22</width>
-        <height>22</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">background-color: green</string>
-      </property>
-     </widget>
-     <widget class="QWidget" name="LEFTHigh1_4" native="true">
-      <property name="geometry">
-       <rect>
-        <x>49</x>
-        <y>2</y>
-        <width>22</width>
-        <height>22</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">background-color: green</string>
-      </property>
-     </widget>
-     <widget class="QWidget" name="LEFTLow0_4" native="true">
-      <property name="geometry">
-       <rect>
-        <x>73</x>
-        <y>27</y>
-        <width>22</width>
-        <height>22</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">background-color: green</string>
-      </property>
-     </widget>
-     <widget class="QWidget" name="LEFTLow2_4" native="true">
-      <property name="geometry">
-       <rect>
-        <x>25</x>
-        <y>27</y>
-        <width>22</width>
-        <height>22</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">background-color: green</string>
-      </property>
-     </widget>
-     <widget class="QWidget" name="LEFTHigh2_4" native="true">
-      <property name="geometry">
-       <rect>
-        <x>25</x>
-        <y>2</y>
-        <width>22</width>
-        <height>22</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">background-color: green</string>
-      </property>
-     </widget>
-    </widget>
-    <zorder>label_4</zorder>
-    <zorder>Buffer_DOWN_4</zorder>
-    <zorder>Buffer_UP_4</zorder>
-    <zorder>Buffer_RIGHT_4</zorder>
-    <zorder>Buffer_LEFT_4</zorder>
-   </widget>
-   <widget class="QWidget" name="Router8_5" native="true">
-    <property name="geometry">
-     <rect>
-      <x>799</x>
-      <y>720</y>
-      <width>301</width>
-      <height>331</height>
-     </rect>
-    </property>
-    <widget class="QWidget" name="Buffer_DOWN_6" native="true">
-     <property name="geometry">
-      <rect>
-       <x>97</x>
-       <y>206</y>
-       <width>81</width>
-       <height>80</height>
-      </rect>
-     </property>
-     <property name="styleSheet">
-      <string notr="true">background-color: rgba(0,0,0,0)</string>
-     </property>
-     <widget class="QWidget" name="widget_86" native="true">
-      <property name="geometry">
-       <rect>
-        <x>50</x>
-        <y>50</y>
-        <width>22</width>
-        <height>22</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">background-color: green</string>
-      </property>
-     </widget>
-     <widget class="QWidget" name="widget_87" native="true">
-      <property name="geometry">
-       <rect>
-        <x>50</x>
-        <y>26</y>
-        <width>22</width>
-        <height>22</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">background-color: green</string>
-      </property>
-     </widget>
-     <widget class="QWidget" name="widget_88" native="true">
-      <property name="geometry">
-       <rect>
-        <x>50</x>
-        <y>2</y>
-        <width>22</width>
-        <height>22</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">background-color: green</string>
-      </property>
-     </widget>
-     <widget class="QWidget" name="widget_89" native="true">
-      <property name="geometry">
-       <rect>
-        <x>25</x>
-        <y>50</y>
-        <width>22</width>
-        <height>22</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">background-color: green</string>
-      </property>
-     </widget>
-     <widget class="QWidget" name="widget_90" native="true">
-      <property name="geometry">
-       <rect>
-        <x>25</x>
-        <y>26</y>
-        <width>22</width>
-        <height>22</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">background-color: green</string>
-      </property>
-     </widget>
-     <widget class="QWidget" name="High0_7" native="true">
-      <property name="geometry">
-       <rect>
-        <x>25</x>
-        <y>2</y>
-        <width>22</width>
-        <height>22</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">background-color: green</string>
-      </property>
-     </widget>
-    </widget>
-    <widget class="QWidget" name="Buffer_UP_6" native="true">
-     <property name="geometry">
-      <rect>
-       <x>97</x>
-       <y>36</y>
-       <width>120</width>
-       <height>80</height>
-      </rect>
-     </property>
-     <property name="styleSheet">
-      <string notr="true">background-color: rgba(0,0,0,0)</string>
-     </property>
-     <widget class="QWidget" name="widget_91" native="true">
-      <property name="geometry">
-       <rect>
-        <x>50</x>
-        <y>50</y>
-        <width>22</width>
-        <height>22</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">background-color: green</string>
-      </property>
-     </widget>
-     <widget class="QWidget" name="widget_92" native="true">
-      <property name="geometry">
-       <rect>
-        <x>50</x>
-        <y>26</y>
-        <width>22</width>
-        <height>22</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">background-color: green</string>
-      </property>
-     </widget>
-     <widget class="QWidget" name="widget_93" native="true">
-      <property name="geometry">
-       <rect>
-        <x>50</x>
-        <y>2</y>
-        <width>22</width>
-        <height>22</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">background-color: green</string>
-      </property>
-     </widget>
-     <widget class="QWidget" name="widget_94" native="true">
-      <property name="geometry">
-       <rect>
-        <x>25</x>
-        <y>50</y>
-        <width>22</width>
-        <height>22</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">background-color: green</string>
-      </property>
-     </widget>
-     <widget class="QWidget" name="widget_95" native="true">
-      <property name="geometry">
-       <rect>
-        <x>25</x>
-        <y>26</y>
-        <width>22</width>
-        <height>22</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">background-color: green</string>
-      </property>
-     </widget>
-     <widget class="QWidget" name="widget_96" native="true">
-      <property name="geometry">
-       <rect>
-        <x>25</x>
-        <y>2</y>
-        <width>22</width>
-        <height>22</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">background-color: green</string>
-      </property>
-     </widget>
-    </widget>
-    <widget class="QLabel" name="label_6">
-     <property name="geometry">
-      <rect>
-       <x>20</x>
-       <y>-6</y>
-       <width>291</width>
-       <height>331</height>
-      </rect>
-     </property>
-     <property name="text">
-      <string/>
-     </property>
-     <property name="pixmap">
-      <pixmap>../Images/Producer_Router.png</pixmap>
-     </property>
-    </widget>
-    <widget class="QWidget" name="Buffer_RIGHT_6" native="true">
-     <property name="geometry">
-      <rect>
-       <x>170</x>
-       <y>133</y>
-       <width>120</width>
-       <height>80</height>
-      </rect>
-     </property>
-     <property name="styleSheet">
-      <string notr="true">background-color: rgba(0,0,0,0)</string>
-     </property>
-     <widget class="QWidget" name="widget_97" native="true">
-      <property name="geometry">
-       <rect>
-        <x>73</x>
-        <y>2</y>
-        <width>22</width>
-        <height>22</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">background-color: green</string>
-      </property>
-     </widget>
-     <widget class="QWidget" name="widget_98" native="true">
-      <property name="geometry">
-       <rect>
-        <x>49</x>
-        <y>27</y>
-        <width>22</width>
-        <height>22</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">background-color: green</string>
-      </property>
-     </widget>
-     <widget class="QWidget" name="widget_99" native="true">
-      <property name="geometry">
-       <rect>
-        <x>49</x>
-        <y>2</y>
-        <width>22</width>
-        <height>22</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">background-color: green</string>
-      </property>
-     </widget>
-     <widget class="QWidget" name="widget_100" native="true">
-      <property name="geometry">
-       <rect>
-        <x>73</x>
-        <y>27</y>
-        <width>22</width>
-        <height>22</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">background-color: green</string>
-      </property>
-     </widget>
-     <widget class="QWidget" name="widget_101" native="true">
-      <property name="geometry">
-       <rect>
-        <x>25</x>
-        <y>27</y>
-        <width>22</width>
-        <height>22</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">background-color: green</string>
-      </property>
-     </widget>
-     <widget class="QWidget" name="widget_102" native="true">
-      <property name="geometry">
-       <rect>
-        <x>25</x>
-        <y>2</y>
-        <width>22</width>
-        <height>22</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">background-color: green</string>
-      </property>
-     </widget>
-    </widget>
-    <widget class="QWidget" name="Buffer_LEFT_6" native="true">
-     <property name="geometry">
-      <rect>
-       <x>1</x>
-       <y>133</y>
-       <width>120</width>
-       <height>80</height>
-      </rect>
-     </property>
-     <property name="styleSheet">
-      <string notr="true">background-color: rgba(0,0,0,0)</string>
-     </property>
-     <widget class="QWidget" name="LEFTHigh0_6" native="true">
-      <property name="geometry">
-       <rect>
-        <x>73</x>
-        <y>2</y>
-        <width>22</width>
-        <height>22</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">background-color: green</string>
-      </property>
-     </widget>
-     <widget class="QWidget" name="LEFTLow1_6" native="true">
-      <property name="geometry">
-       <rect>
-        <x>49</x>
-        <y>27</y>
-        <width>22</width>
-        <height>22</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">background-color: green</string>
-      </property>
-     </widget>
-     <widget class="QWidget" name="LEFTHigh1_6" native="true">
-      <property name="geometry">
-       <rect>
-        <x>49</x>
-        <y>2</y>
-        <width>22</width>
-        <height>22</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">background-color: green</string>
-      </property>
-     </widget>
-     <widget class="QWidget" name="LEFTLow0_6" native="true">
-      <property name="geometry">
-       <rect>
-        <x>73</x>
-        <y>27</y>
-        <width>22</width>
-        <height>22</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">background-color: green</string>
-      </property>
-     </widget>
-     <widget class="QWidget" name="LEFTLow2_6" native="true">
-      <property name="geometry">
-       <rect>
-        <x>25</x>
-        <y>27</y>
-        <width>22</width>
-        <height>22</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">background-color: green</string>
-      </property>
-     </widget>
-     <widget class="QWidget" name="LEFTHigh2_6" native="true">
-      <property name="geometry">
-       <rect>
-        <x>25</x>
-        <y>2</y>
-        <width>22</width>
-        <height>22</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">background-color: green</string>
-      </property>
-     </widget>
-    </widget>
-    <widget class="QWidget" name="Buffer_Slave_3" native="true">
-     <property name="geometry">
-      <rect>
-       <x>158</x>
-       <y>194</y>
-       <width>120</width>
-       <height>80</height>
-      </rect>
-     </property>
-     <property name="styleSheet">
-      <string notr="true">background-color: rgba(0,0,0,0)</string>
-     </property>
-     <widget class="QWidget" name="widget_143" native="true">
-      <property name="geometry">
-       <rect>
-        <x>73</x>
-        <y>2</y>
-        <width>18</width>
-        <height>18</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">background-color: green</string>
-      </property>
-     </widget>
-     <widget class="QWidget" name="widget_144" native="true">
-      <property name="geometry">
-       <rect>
-        <x>54</x>
-        <y>23</y>
-        <width>17</width>
-        <height>18</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">background-color: green</string>
-      </property>
-     </widget>
-     <widget class="QWidget" name="widget_145" native="true">
-      <property name="geometry">
-       <rect>
-        <x>54</x>
-        <y>2</y>
-        <width>17</width>
-        <height>18</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">background-color: green</string>
-      </property>
-     </widget>
-     <widget class="QWidget" name="widget_146" native="true">
-      <property name="geometry">
-       <rect>
-        <x>73</x>
-        <y>23</y>
-        <width>18</width>
-        <height>18</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">background-color: green</string>
-      </property>
-     </widget>
-     <widget class="QWidget" name="widget_147" native="true">
-      <property name="geometry">
-       <rect>
-        <x>34</x>
-        <y>23</y>
-        <width>18</width>
-        <height>18</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">background-color: green</string>
-      </property>
-     </widget>
-     <widget class="QWidget" name="widget_148" native="true">
-      <property name="geometry">
-       <rect>
-        <x>34</x>
-        <y>2</y>
-        <width>18</width>
-        <height>18</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">background-color: green</string>
-      </property>
-     </widget>
-    </widget>
-    <zorder>label_6</zorder>
-    <zorder>Buffer_DOWN_6</zorder>
-    <zorder>Buffer_UP_6</zorder>
-    <zorder>Buffer_RIGHT_6</zorder>
-    <zorder>Buffer_LEFT_6</zorder>
-    <zorder>Buffer_Slave_3</zorder>
-   </widget>
-   <widget class="QWidget" name="Router8_6" native="true">
-    <property name="geometry">
-     <rect>
-      <x>1191</x>
-      <y>0</y>
-      <width>301</width>
-      <height>331</height>
-     </rect>
-    </property>
-    <widget class="QWidget" name="Buffer_DOWN_9" native="true">
-     <property name="geometry">
-      <rect>
-       <x>97</x>
-       <y>206</y>
-       <width>81</width>
-       <height>80</height>
-      </rect>
-     </property>
-     <property name="styleSheet">
-      <string notr="true">background-color: rgba(0,0,0,0)</string>
-     </property>
-     <widget class="QWidget" name="widget_173" native="true">
-      <property name="geometry">
-       <rect>
-        <x>50</x>
-        <y>50</y>
-        <width>22</width>
-        <height>22</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">background-color: green</string>
-      </property>
-     </widget>
-     <widget class="QWidget" name="widget_174" native="true">
-      <property name="geometry">
-       <rect>
-        <x>50</x>
-        <y>26</y>
-        <width>22</width>
-        <height>22</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">background-color: green</string>
-      </property>
-     </widget>
-     <widget class="QWidget" name="widget_175" native="true">
-      <property name="geometry">
-       <rect>
-        <x>50</x>
-        <y>2</y>
-        <width>22</width>
-        <height>22</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">background-color: green</string>
-      </property>
-     </widget>
-     <widget class="QWidget" name="widget_176" native="true">
-      <property name="geometry">
-       <rect>
-        <x>25</x>
-        <y>50</y>
-        <width>22</width>
-        <height>22</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">background-color: green</string>
-      </property>
-     </widget>
-     <widget class="QWidget" name="widget_177" native="true">
-      <property name="geometry">
-       <rect>
-        <x>25</x>
-        <y>26</y>
-        <width>22</width>
-        <height>22</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">background-color: green</string>
-      </property>
-     </widget>
-     <widget class="QWidget" name="High0_10" native="true">
-      <property name="geometry">
-       <rect>
-        <x>25</x>
-        <y>2</y>
-        <width>22</width>
-        <height>22</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">background-color: green</string>
-      </property>
-     </widget>
-    </widget>
-    <widget class="QWidget" name="Buffer_UP_9" native="true">
-     <property name="geometry">
-      <rect>
-       <x>97</x>
-       <y>36</y>
-       <width>120</width>
-       <height>80</height>
-      </rect>
-     </property>
-     <property name="styleSheet">
-      <string notr="true">background-color: rgba(0,0,0,0)</string>
-     </property>
-     <widget class="QWidget" name="widget_178" native="true">
-      <property name="geometry">
-       <rect>
-        <x>50</x>
-        <y>50</y>
-        <width>22</width>
-        <height>22</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">background-color: green</string>
-      </property>
-     </widget>
-     <widget class="QWidget" name="widget_179" native="true">
-      <property name="geometry">
-       <rect>
-        <x>50</x>
-        <y>26</y>
-        <width>22</width>
-        <height>22</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">background-color: green</string>
-      </property>
-     </widget>
-     <widget class="QWidget" name="widget_180" native="true">
-      <property name="geometry">
-       <rect>
-        <x>50</x>
-        <y>2</y>
-        <width>22</width>
-        <height>22</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">background-color: green</string>
-      </property>
-     </widget>
-     <widget class="QWidget" name="widget_181" native="true">
-      <property name="geometry">
-       <rect>
-        <x>25</x>
-        <y>50</y>
-        <width>22</width>
-        <height>22</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">background-color: green</string>
-      </property>
-     </widget>
-     <widget class="QWidget" name="widget_182" native="true">
-      <property name="geometry">
-       <rect>
-        <x>25</x>
-        <y>26</y>
-        <width>22</width>
-        <height>22</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">background-color: green</string>
-      </property>
-     </widget>
-     <widget class="QWidget" name="widget_183" native="true">
-      <property name="geometry">
-       <rect>
-        <x>25</x>
-        <y>2</y>
-        <width>22</width>
-        <height>22</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">background-color: green</string>
-      </property>
-     </widget>
-    </widget>
-    <widget class="QLabel" name="label_9">
-     <property name="geometry">
-      <rect>
-       <x>20</x>
-       <y>-6</y>
-       <width>291</width>
-       <height>331</height>
-      </rect>
-     </property>
-     <property name="text">
-      <string/>
-     </property>
-     <property name="pixmap">
-      <pixmap>../Images/Producer_Router.png</pixmap>
-     </property>
-    </widget>
-    <widget class="QWidget" name="Buffer_RIGHT_9" native="true">
-     <property name="geometry">
-      <rect>
-       <x>170</x>
-       <y>133</y>
-       <width>120</width>
-       <height>80</height>
-      </rect>
-     </property>
-     <property name="styleSheet">
-      <string notr="true">background-color: rgba(0,0,0,0)</string>
-     </property>
-     <widget class="QWidget" name="widget_184" native="true">
-      <property name="geometry">
-       <rect>
-        <x>73</x>
-        <y>2</y>
-        <width>22</width>
-        <height>22</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">background-color: green</string>
-      </property>
-     </widget>
-     <widget class="QWidget" name="widget_185" native="true">
-      <property name="geometry">
-       <rect>
-        <x>49</x>
-        <y>27</y>
-        <width>22</width>
-        <height>22</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">background-color: green</string>
-      </property>
-     </widget>
-     <widget class="QWidget" name="widget_186" native="true">
-      <property name="geometry">
-       <rect>
-        <x>49</x>
-        <y>2</y>
-        <width>22</width>
-        <height>22</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">background-color: green</string>
-      </property>
-     </widget>
-     <widget class="QWidget" name="widget_187" native="true">
-      <property name="geometry">
-       <rect>
-        <x>73</x>
-        <y>27</y>
-        <width>22</width>
-        <height>22</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">background-color: green</string>
-      </property>
-     </widget>
-     <widget class="QWidget" name="widget_188" native="true">
-      <property name="geometry">
-       <rect>
-        <x>25</x>
-        <y>27</y>
-        <width>22</width>
-        <height>22</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">background-color: green</string>
-      </property>
-     </widget>
-     <widget class="QWidget" name="widget_189" native="true">
-      <property name="geometry">
-       <rect>
-        <x>25</x>
-        <y>2</y>
-        <width>22</width>
-        <height>22</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">background-color: green</string>
-      </property>
-     </widget>
-    </widget>
-    <widget class="QWidget" name="Buffer_LEFT_9" native="true">
-     <property name="geometry">
-      <rect>
-       <x>1</x>
-       <y>133</y>
-       <width>120</width>
-       <height>80</height>
-      </rect>
-     </property>
-     <property name="styleSheet">
-      <string notr="true">background-color: rgba(0,0,0,0)</string>
-     </property>
-     <widget class="QWidget" name="LEFTHigh0_9" native="true">
-      <property name="geometry">
-       <rect>
-        <x>73</x>
-        <y>2</y>
-        <width>22</width>
-        <height>22</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">background-color: green</string>
-      </property>
-     </widget>
-     <widget class="QWidget" name="LEFTLow1_9" native="true">
-      <property name="geometry">
-       <rect>
-        <x>49</x>
-        <y>27</y>
-        <width>22</width>
-        <height>22</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">background-color: green</string>
-      </property>
-     </widget>
-     <widget class="QWidget" name="LEFTHigh1_9" native="true">
-      <property name="geometry">
-       <rect>
-        <x>49</x>
-        <y>2</y>
-        <width>22</width>
-        <height>22</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">background-color: green</string>
-      </property>
-     </widget>
-     <widget class="QWidget" name="LEFTLow0_9" native="true">
-      <property name="geometry">
-       <rect>
-        <x>73</x>
-        <y>27</y>
-        <width>22</width>
-        <height>22</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">background-color: green</string>
-      </property>
-     </widget>
-     <widget class="QWidget" name="LEFTLow2_9" native="true">
-      <property name="geometry">
-       <rect>
-        <x>25</x>
-        <y>27</y>
-        <width>22</width>
-        <height>22</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">background-color: green</string>
-      </property>
-     </widget>
-     <widget class="QWidget" name="LEFTHigh2_9" native="true">
-      <property name="geometry">
-       <rect>
-        <x>25</x>
-        <y>2</y>
-        <width>22</width>
-        <height>22</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">background-color: green</string>
-      </property>
-     </widget>
-    </widget>
-    <widget class="QWidget" name="Buffer_Slave_7" native="true">
-     <property name="geometry">
-      <rect>
-       <x>158</x>
-       <y>194</y>
-       <width>120</width>
-       <height>80</height>
-      </rect>
-     </property>
-     <property name="styleSheet">
-      <string notr="true">background-color: rgba(0,0,0,0)</string>
-     </property>
-     <widget class="QWidget" name="widget_190" native="true">
-      <property name="geometry">
-       <rect>
-        <x>73</x>
-        <y>2</y>
-        <width>18</width>
-        <height>18</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">background-color: green</string>
-      </property>
-     </widget>
-     <widget class="QWidget" name="widget_191" native="true">
-      <property name="geometry">
-       <rect>
-        <x>54</x>
-        <y>23</y>
-        <width>17</width>
-        <height>18</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">background-color: green</string>
-      </property>
-     </widget>
-     <widget class="QWidget" name="widget_192" native="true">
-      <property name="geometry">
-       <rect>
-        <x>54</x>
-        <y>2</y>
-        <width>17</width>
-        <height>18</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">background-color: green</string>
-      </property>
-     </widget>
-     <widget class="QWidget" name="widget_193" native="true">
-      <property name="geometry">
-       <rect>
-        <x>73</x>
-        <y>23</y>
-        <width>18</width>
-        <height>18</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">background-color: green</string>
-      </property>
-     </widget>
-     <widget class="QWidget" name="widget_194" native="true">
-      <property name="geometry">
-       <rect>
-        <x>34</x>
-        <y>23</y>
-        <width>18</width>
-        <height>18</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">background-color: green</string>
-      </property>
-     </widget>
-     <widget class="QWidget" name="widget_195" native="true">
-      <property name="geometry">
-       <rect>
-        <x>34</x>
-        <y>2</y>
-        <width>18</width>
-        <height>18</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">background-color: green</string>
-      </property>
-     </widget>
-    </widget>
-    <zorder>label_9</zorder>
-    <zorder>Buffer_DOWN_9</zorder>
-    <zorder>Buffer_UP_9</zorder>
-    <zorder>Buffer_RIGHT_9</zorder>
-    <zorder>Buffer_LEFT_9</zorder>
-    <zorder>Buffer_Slave_7</zorder>
-   </widget>
-   <widget class="QWidget" name="Router8_7" native="true">
-    <property name="geometry">
-     <rect>
-      <x>1191</x>
-      <y>360</y>
-      <width>301</width>
-      <height>331</height>
-     </rect>
-    </property>
-    <widget class="QWidget" name="Buffer_DOWN_10" native="true">
-     <property name="geometry">
-      <rect>
-       <x>97</x>
-       <y>206</y>
-       <width>81</width>
-       <height>80</height>
-      </rect>
-     </property>
-     <property name="styleSheet">
-      <string notr="true">background-color: rgba(0,0,0,0)</string>
-     </property>
-     <widget class="QWidget" name="widget_196" native="true">
-      <property name="geometry">
-       <rect>
-        <x>50</x>
-        <y>50</y>
-        <width>22</width>
-        <height>22</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">background-color: green</string>
-      </property>
-     </widget>
-     <widget class="QWidget" name="widget_197" native="true">
-      <property name="geometry">
-       <rect>
-        <x>50</x>
-        <y>26</y>
-        <width>22</width>
-        <height>22</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">background-color: green</string>
-      </property>
-     </widget>
-     <widget class="QWidget" name="widget_198" native="true">
-      <property name="geometry">
-       <rect>
-        <x>50</x>
-        <y>2</y>
-        <width>22</width>
-        <height>22</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">background-color: green</string>
-      </property>
-     </widget>
-     <widget class="QWidget" name="widget_199" native="true">
-      <property name="geometry">
-       <rect>
-        <x>25</x>
-        <y>50</y>
-        <width>22</width>
-        <height>22</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">background-color: green</string>
-      </property>
-     </widget>
-     <widget class="QWidget" name="widget_200" native="true">
-      <property name="geometry">
-       <rect>
-        <x>25</x>
-        <y>26</y>
-        <width>22</width>
-        <height>22</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">background-color: green</string>
-      </property>
-     </widget>
-     <widget class="QWidget" name="High0_11" native="true">
-      <property name="geometry">
-       <rect>
-        <x>25</x>
-        <y>2</y>
-        <width>22</width>
-        <height>22</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">background-color: green</string>
-      </property>
-     </widget>
-    </widget>
-    <widget class="QWidget" name="Buffer_UP_10" native="true">
-     <property name="geometry">
-      <rect>
-       <x>97</x>
-       <y>36</y>
-       <width>120</width>
-       <height>80</height>
-      </rect>
-     </property>
-     <property name="styleSheet">
-      <string notr="true">background-color: rgba(0,0,0,0)</string>
-     </property>
-     <widget class="QWidget" name="widget_201" native="true">
-      <property name="geometry">
-       <rect>
-        <x>50</x>
-        <y>50</y>
-        <width>22</width>
-        <height>22</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">background-color: green</string>
-      </property>
-     </widget>
-     <widget class="QWidget" name="widget_202" native="true">
-      <property name="geometry">
-       <rect>
-        <x>50</x>
-        <y>26</y>
-        <width>22</width>
-        <height>22</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">background-color: green</string>
-      </property>
-     </widget>
-     <widget class="QWidget" name="widget_203" native="true">
-      <property name="geometry">
-       <rect>
-        <x>50</x>
-        <y>2</y>
-        <width>22</width>
-        <height>22</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">background-color: green</string>
-      </property>
-     </widget>
-     <widget class="QWidget" name="widget_204" native="true">
-      <property name="geometry">
-       <rect>
-        <x>25</x>
-        <y>50</y>
-        <width>22</width>
-        <height>22</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">background-color: green</string>
-      </property>
-     </widget>
-     <widget class="QWidget" name="widget_205" native="true">
-      <property name="geometry">
-       <rect>
-        <x>25</x>
-        <y>26</y>
-        <width>22</width>
-        <height>22</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">background-color: green</string>
-      </property>
-     </widget>
-     <widget class="QWidget" name="widget_206" native="true">
-      <property name="geometry">
-       <rect>
-        <x>25</x>
-        <y>2</y>
-        <width>22</width>
-        <height>22</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">background-color: green</string>
-      </property>
-     </widget>
-    </widget>
-    <widget class="QLabel" name="label_10">
-     <property name="geometry">
-      <rect>
-       <x>20</x>
-       <y>-6</y>
-       <width>291</width>
-       <height>331</height>
-      </rect>
-     </property>
-     <property name="text">
-      <string/>
-     </property>
-     <property name="pixmap">
-      <pixmap>../Images/Producer_Router.png</pixmap>
-     </property>
-    </widget>
-    <widget class="QWidget" name="Buffer_RIGHT_10" native="true">
-     <property name="geometry">
-      <rect>
-       <x>170</x>
-       <y>133</y>
-       <width>120</width>
-       <height>80</height>
-      </rect>
-     </property>
-     <property name="styleSheet">
-      <string notr="true">background-color: rgba(0,0,0,0)</string>
-     </property>
-     <widget class="QWidget" name="widget_207" native="true">
-      <property name="geometry">
-       <rect>
-        <x>73</x>
-        <y>2</y>
-        <width>22</width>
-        <height>22</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">background-color: green</string>
-      </property>
-     </widget>
-     <widget class="QWidget" name="widget_208" native="true">
-      <property name="geometry">
-       <rect>
-        <x>49</x>
-        <y>27</y>
-        <width>22</width>
-        <height>22</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">background-color: green</string>
-      </property>
-     </widget>
-     <widget class="QWidget" name="widget_209" native="true">
-      <property name="geometry">
-       <rect>
-        <x>49</x>
-        <y>2</y>
-        <width>22</width>
-        <height>22</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">background-color: green</string>
-      </property>
-     </widget>
-     <widget class="QWidget" name="widget_210" native="true">
-      <property name="geometry">
-       <rect>
-        <x>73</x>
-        <y>27</y>
-        <width>22</width>
-        <height>22</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">background-color: green</string>
-      </property>
-     </widget>
-     <widget class="QWidget" name="widget_211" native="true">
-      <property name="geometry">
-       <rect>
-        <x>25</x>
-        <y>27</y>
-        <width>22</width>
-        <height>22</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">background-color: green</string>
-      </property>
-     </widget>
-     <widget class="QWidget" name="widget_212" native="true">
-      <property name="geometry">
-       <rect>
-        <x>25</x>
-        <y>2</y>
-        <width>22</width>
-        <height>22</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">background-color: green</string>
-      </property>
-     </widget>
-    </widget>
-    <widget class="QWidget" name="Buffer_LEFT_10" native="true">
-     <property name="geometry">
-      <rect>
-       <x>1</x>
-       <y>133</y>
-       <width>120</width>
-       <height>80</height>
-      </rect>
-     </property>
-     <property name="styleSheet">
-      <string notr="true">background-color: rgba(0,0,0,0)</string>
-     </property>
-     <widget class="QWidget" name="LEFTHigh0_10" native="true">
-      <property name="geometry">
-       <rect>
-        <x>73</x>
-        <y>2</y>
-        <width>22</width>
-        <height>22</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">background-color: green</string>
-      </property>
-     </widget>
-     <widget class="QWidget" name="LEFTLow1_10" native="true">
-      <property name="geometry">
-       <rect>
-        <x>49</x>
-        <y>27</y>
-        <width>22</width>
-        <height>22</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">background-color: green</string>
-      </property>
-     </widget>
-     <widget class="QWidget" name="LEFTHigh1_10" native="true">
-      <property name="geometry">
-       <rect>
-        <x>49</x>
-        <y>2</y>
-        <width>22</width>
-        <height>22</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">background-color: green</string>
-      </property>
-     </widget>
-     <widget class="QWidget" name="LEFTLow0_10" native="true">
-      <property name="geometry">
-       <rect>
-        <x>73</x>
-        <y>27</y>
-        <width>22</width>
-        <height>22</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">background-color: green</string>
-      </property>
-     </widget>
-     <widget class="QWidget" name="LEFTLow2_10" native="true">
-      <property name="geometry">
-       <rect>
-        <x>25</x>
-        <y>27</y>
-        <width>22</width>
-        <height>22</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">background-color: green</string>
-      </property>
-     </widget>
-     <widget class="QWidget" name="LEFTHigh2_10" native="true">
-      <property name="geometry">
-       <rect>
-        <x>25</x>
-        <y>2</y>
-        <width>22</width>
-        <height>22</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">background-color: green</string>
-      </property>
-     </widget>
-    </widget>
-    <widget class="QWidget" name="Buffer_Slave_8" native="true">
-     <property name="geometry">
-      <rect>
-       <x>158</x>
-       <y>194</y>
-       <width>120</width>
-       <height>80</height>
-      </rect>
-     </property>
-     <property name="styleSheet">
-      <string notr="true">background-color: rgba(0,0,0,0)</string>
-     </property>
-     <widget class="QWidget" name="widget_213" native="true">
-      <property name="geometry">
-       <rect>
-        <x>73</x>
-        <y>2</y>
-        <width>18</width>
-        <height>18</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">background-color: green</string>
-      </property>
-     </widget>
-     <widget class="QWidget" name="widget_214" native="true">
-      <property name="geometry">
-       <rect>
-        <x>54</x>
-        <y>23</y>
-        <width>17</width>
-        <height>18</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">background-color: green</string>
-      </property>
-     </widget>
-     <widget class="QWidget" name="widget_215" native="true">
-      <property name="geometry">
-       <rect>
-        <x>54</x>
-        <y>2</y>
-        <width>17</width>
-        <height>18</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">background-color: green</string>
-      </property>
-     </widget>
-     <widget class="QWidget" name="widget_216" native="true">
-      <property name="geometry">
-       <rect>
-        <x>73</x>
-        <y>23</y>
-        <width>18</width>
-        <height>18</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">background-color: green</string>
-      </property>
-     </widget>
-     <widget class="QWidget" name="widget_217" native="true">
-      <property name="geometry">
-       <rect>
-        <x>34</x>
-        <y>23</y>
-        <width>18</width>
-        <height>18</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">background-color: green</string>
-      </property>
-     </widget>
-     <widget class="QWidget" name="widget_218" native="true">
-      <property name="geometry">
-       <rect>
-        <x>34</x>
-        <y>2</y>
-        <width>18</width>
-        <height>18</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">background-color: green</string>
-      </property>
-     </widget>
-    </widget>
-    <zorder>label_10</zorder>
-    <zorder>Buffer_DOWN_10</zorder>
-    <zorder>Buffer_UP_10</zorder>
-    <zorder>Buffer_RIGHT_10</zorder>
-    <zorder>Buffer_LEFT_10</zorder>
-    <zorder>Buffer_Slave_8</zorder>
-   </widget>
-   <widget class="QWidget" name="Router8_8" native="true">
-    <property name="geometry">
-     <rect>
-      <x>409</x>
-      <y>720</y>
-      <width>291</width>
-      <height>331</height>
-     </rect>
-    </property>
-    <widget class="QWidget" name="Buffer_DOWN_12" native="true">
-     <property name="geometry">
-      <rect>
-       <x>97</x>
-       <y>206</y>
-       <width>81</width>
-       <height>80</height>
-      </rect>
-     </property>
-     <property name="styleSheet">
-      <string notr="true">background-color: rgba(0,0,0,0)</string>
-     </property>
-     <widget class="QWidget" name="widget_236" native="true">
-      <property name="geometry">
-       <rect>
-        <x>50</x>
-        <y>50</y>
-        <width>22</width>
-        <height>22</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">background-color: green</string>
-      </property>
-     </widget>
-     <widget class="QWidget" name="widget_237" native="true">
-      <property name="geometry">
-       <rect>
-        <x>50</x>
-        <y>26</y>
-        <width>22</width>
-        <height>22</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">background-color: green</string>
-      </property>
-     </widget>
-     <widget class="QWidget" name="widget_238" native="true">
-      <property name="geometry">
-       <rect>
-        <x>50</x>
-        <y>2</y>
-        <width>22</width>
-        <height>22</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">background-color: green</string>
-      </property>
-     </widget>
-     <widget class="QWidget" name="widget_239" native="true">
-      <property name="geometry">
-       <rect>
-        <x>25</x>
-        <y>50</y>
-        <width>22</width>
-        <height>22</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">background-color: green</string>
-      </property>
-     </widget>
-     <widget class="QWidget" name="widget_240" native="true">
-      <property name="geometry">
-       <rect>
-        <x>25</x>
-        <y>26</y>
-        <width>22</width>
-        <height>22</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">background-color: green</string>
-      </property>
-     </widget>
-     <widget class="QWidget" name="High0_13" native="true">
-      <property name="geometry">
-       <rect>
-        <x>25</x>
-        <y>2</y>
-        <width>22</width>
-        <height>22</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">background-color: green</string>
-      </property>
-     </widget>
-    </widget>
-    <widget class="QWidget" name="Buffer_UP_12" native="true">
-     <property name="geometry">
-      <rect>
-       <x>97</x>
-       <y>36</y>
-       <width>120</width>
-       <height>80</height>
-      </rect>
-     </property>
-     <property name="styleSheet">
-      <string notr="true">background-color: rgba(0,0,0,0)</string>
-     </property>
-     <widget class="QWidget" name="widget_241" native="true">
-      <property name="geometry">
-       <rect>
-        <x>50</x>
-        <y>50</y>
-        <width>22</width>
-        <height>22</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">background-color: green</string>
-      </property>
-     </widget>
-     <widget class="QWidget" name="widget_242" native="true">
-      <property name="geometry">
-       <rect>
-        <x>50</x>
-        <y>26</y>
-        <width>22</width>
-        <height>22</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">background-color: green</string>
-      </property>
-     </widget>
-     <widget class="QWidget" name="widget_243" native="true">
-      <property name="geometry">
-       <rect>
-        <x>50</x>
-        <y>2</y>
-        <width>22</width>
-        <height>22</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">background-color: green</string>
-      </property>
-     </widget>
-     <widget class="QWidget" name="widget_244" native="true">
-      <property name="geometry">
-       <rect>
-        <x>25</x>
-        <y>50</y>
-        <width>22</width>
-        <height>22</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">background-color: green</string>
-      </property>
-     </widget>
-     <widget class="QWidget" name="widget_245" native="true">
-      <property name="geometry">
-       <rect>
-        <x>25</x>
-        <y>26</y>
-        <width>22</width>
-        <height>22</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">background-color: green</string>
-      </property>
-     </widget>
-     <widget class="QWidget" name="widget_246" native="true">
-      <property name="geometry">
-       <rect>
-        <x>25</x>
-        <y>2</y>
-        <width>22</width>
-        <height>22</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">background-color: green</string>
-      </property>
-     </widget>
-    </widget>
-    <widget class="QLabel" name="label_12">
-     <property name="geometry">
-      <rect>
-       <x>20</x>
-       <y>-6</y>
-       <width>291</width>
-       <height>331</height>
-      </rect>
-     </property>
-     <property name="text">
-      <string/>
-     </property>
-     <property name="pixmap">
-      <pixmap>../Images/Consumer_Router.png</pixmap>
-     </property>
-    </widget>
-    <widget class="QWidget" name="Buffer_RIGHT_12" native="true">
-     <property name="geometry">
-      <rect>
-       <x>170</x>
-       <y>133</y>
-       <width>120</width>
-       <height>80</height>
-      </rect>
-     </property>
-     <property name="styleSheet">
-      <string notr="true">background-color: rgba(0,0,0,0)</string>
-     </property>
-     <widget class="QWidget" name="widget_247" native="true">
-      <property name="geometry">
-       <rect>
-        <x>73</x>
-        <y>2</y>
-        <width>22</width>
-        <height>22</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">background-color: green</string>
-      </property>
-     </widget>
-     <widget class="QWidget" name="widget_248" native="true">
-      <property name="geometry">
-       <rect>
-        <x>49</x>
-        <y>27</y>
-        <width>22</width>
-        <height>22</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">background-color: green</string>
-      </property>
-     </widget>
-     <widget class="QWidget" name="widget_249" native="true">
-      <property name="geometry">
-       <rect>
-        <x>49</x>
-        <y>2</y>
-        <width>22</width>
-        <height>22</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">background-color: green</string>
-      </property>
-     </widget>
-     <widget class="QWidget" name="widget_250" native="true">
-      <property name="geometry">
-       <rect>
-        <x>73</x>
-        <y>27</y>
-        <width>22</width>
-        <height>22</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">background-color: green</string>
-      </property>
-     </widget>
-     <widget class="QWidget" name="widget_251" native="true">
-      <property name="geometry">
-       <rect>
-        <x>25</x>
-        <y>27</y>
-        <width>22</width>
-        <height>22</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">background-color: green</string>
-      </property>
-     </widget>
-     <widget class="QWidget" name="widget_252" native="true">
-      <property name="geometry">
-       <rect>
-        <x>25</x>
-        <y>2</y>
-        <width>22</width>
-        <height>22</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">background-color: green</string>
-      </property>
-     </widget>
-    </widget>
-    <widget class="QWidget" name="Buffer_LEFT_12" native="true">
-     <property name="geometry">
-      <rect>
-       <x>1</x>
-       <y>133</y>
-       <width>120</width>
-       <height>80</height>
-      </rect>
-     </property>
-     <property name="styleSheet">
-      <string notr="true">background-color: rgba(0,0,0,0)</string>
-     </property>
-     <widget class="QWidget" name="LEFTHigh0_12" native="true">
-      <property name="geometry">
-       <rect>
-        <x>73</x>
-        <y>2</y>
-        <width>22</width>
-        <height>22</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">background-color: green</string>
-      </property>
-     </widget>
-     <widget class="QWidget" name="LEFTLow1_12" native="true">
-      <property name="geometry">
-       <rect>
-        <x>49</x>
-        <y>27</y>
-        <width>22</width>
-        <height>22</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">background-color: green</string>
-      </property>
-     </widget>
-     <widget class="QWidget" name="LEFTHigh1_12" native="true">
-      <property name="geometry">
-       <rect>
-        <x>49</x>
-        <y>2</y>
-        <width>22</width>
-        <height>22</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">background-color: green</string>
-      </property>
-     </widget>
-     <widget class="QWidget" name="LEFTLow0_12" native="true">
-      <property name="geometry">
-       <rect>
-        <x>73</x>
-        <y>27</y>
-        <width>22</width>
-        <height>22</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">background-color: green</string>
-      </property>
-     </widget>
-     <widget class="QWidget" name="LEFTLow2_12" native="true">
-      <property name="geometry">
-       <rect>
-        <x>25</x>
-        <y>27</y>
-        <width>22</width>
-        <height>22</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">background-color: green</string>
-      </property>
-     </widget>
-     <widget class="QWidget" name="LEFTHigh2_12" native="true">
-      <property name="geometry">
-       <rect>
-        <x>25</x>
-        <y>2</y>
-        <width>22</width>
-        <height>22</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">background-color: green</string>
-      </property>
-     </widget>
-    </widget>
-    <zorder>label_12</zorder>
-    <zorder>Buffer_DOWN_12</zorder>
-    <zorder>Buffer_UP_12</zorder>
-    <zorder>Buffer_RIGHT_12</zorder>
-    <zorder>Buffer_LEFT_12</zorder>
-   </widget>
-   <widget class="QWidget" name="Router8_9" native="true">
-    <property name="geometry">
-     <rect>
-      <x>1192</x>
-      <y>720</y>
-      <width>291</width>
-      <height>331</height>
-     </rect>
-    </property>
-    <widget class="QWidget" name="Buffer_DOWN_13" native="true">
-     <property name="geometry">
-      <rect>
-       <x>97</x>
-       <y>206</y>
-       <width>81</width>
-       <height>80</height>
-      </rect>
-     </property>
-     <property name="styleSheet">
-      <string notr="true">background-color: rgba(0,0,0,0)</string>
-     </property>
-     <widget class="QWidget" name="widget_253" native="true">
-      <property name="geometry">
-       <rect>
-        <x>50</x>
-        <y>50</y>
-        <width>22</width>
-        <height>22</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">background-color: green</string>
-      </property>
-     </widget>
-     <widget class="QWidget" name="widget_254" native="true">
-      <property name="geometry">
-       <rect>
-        <x>50</x>
-        <y>26</y>
-        <width>22</width>
-        <height>22</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">background-color: green</string>
-      </property>
-     </widget>
-     <widget class="QWidget" name="widget_255" native="true">
-      <property name="geometry">
-       <rect>
-        <x>50</x>
-        <y>2</y>
-        <width>22</width>
-        <height>22</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">background-color: green</string>
-      </property>
-     </widget>
-     <widget class="QWidget" name="widget_256" native="true">
-      <property name="geometry">
-       <rect>
-        <x>25</x>
-        <y>50</y>
-        <width>22</width>
-        <height>22</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">background-color: green</string>
-      </property>
-     </widget>
-     <widget class="QWidget" name="widget_257" native="true">
-      <property name="geometry">
-       <rect>
-        <x>25</x>
-        <y>26</y>
-        <width>22</width>
-        <height>22</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">background-color: green</string>
-      </property>
-     </widget>
-     <widget class="QWidget" name="High0_14" native="true">
-      <property name="geometry">
-       <rect>
-        <x>25</x>
-        <y>2</y>
-        <width>22</width>
-        <height>22</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">background-color: green</string>
-      </property>
-     </widget>
-    </widget>
-    <widget class="QWidget" name="Buffer_UP_13" native="true">
-     <property name="geometry">
-      <rect>
-       <x>97</x>
-       <y>36</y>
-       <width>120</width>
-       <height>80</height>
-      </rect>
-     </property>
-     <property name="styleSheet">
-      <string notr="true">background-color: rgba(0,0,0,0)</string>
-     </property>
-     <widget class="QWidget" name="widget_258" native="true">
-      <property name="geometry">
-       <rect>
-        <x>50</x>
-        <y>50</y>
-        <width>22</width>
-        <height>22</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">background-color: green</string>
-      </property>
-     </widget>
-     <widget class="QWidget" name="widget_259" native="true">
-      <property name="geometry">
-       <rect>
-        <x>50</x>
-        <y>26</y>
-        <width>22</width>
-        <height>22</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">background-color: green</string>
-      </property>
-     </widget>
-     <widget class="QWidget" name="widget_260" native="true">
-      <property name="geometry">
-       <rect>
-        <x>50</x>
-        <y>2</y>
-        <width>22</width>
-        <height>22</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">background-color: green</string>
-      </property>
-     </widget>
-     <widget class="QWidget" name="widget_261" native="true">
-      <property name="geometry">
-       <rect>
-        <x>25</x>
-        <y>50</y>
-        <width>22</width>
-        <height>22</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">background-color: green</string>
-      </property>
-     </widget>
-     <widget class="QWidget" name="widget_262" native="true">
-      <property name="geometry">
-       <rect>
-        <x>25</x>
-        <y>26</y>
-        <width>22</width>
-        <height>22</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">background-color: green</string>
-      </property>
-     </widget>
-     <widget class="QWidget" name="widget_263" native="true">
-      <property name="geometry">
-       <rect>
-        <x>25</x>
-        <y>2</y>
-        <width>22</width>
-        <height>22</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">background-color: green</string>
-      </property>
-     </widget>
-    </widget>
-    <widget class="QLabel" name="label_13">
-     <property name="geometry">
-      <rect>
-       <x>20</x>
-       <y>-6</y>
-       <width>291</width>
-       <height>331</height>
-      </rect>
-     </property>
-     <property name="text">
-      <string/>
-     </property>
-     <property name="pixmap">
-      <pixmap>../Images/Consumer_Router.png</pixmap>
-     </property>
-    </widget>
-    <widget class="QWidget" name="Buffer_RIGHT_13" native="true">
-     <property name="geometry">
-      <rect>
-       <x>170</x>
-       <y>133</y>
-       <width>120</width>
-       <height>80</height>
-      </rect>
-     </property>
-     <property name="styleSheet">
-      <string notr="true">background-color: rgba(0,0,0,0)</string>
-     </property>
-     <widget class="QWidget" name="widget_264" native="true">
-      <property name="geometry">
-       <rect>
-        <x>73</x>
-        <y>2</y>
-        <width>22</width>
-        <height>22</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">background-color: green</string>
-      </property>
-     </widget>
-     <widget class="QWidget" name="widget_265" native="true">
-      <property name="geometry">
-       <rect>
-        <x>49</x>
-        <y>27</y>
-        <width>22</width>
-        <height>22</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">background-color: green</string>
-      </property>
-     </widget>
-     <widget class="QWidget" name="widget_266" native="true">
-      <property name="geometry">
-       <rect>
-        <x>49</x>
-        <y>2</y>
-        <width>22</width>
-        <height>22</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">background-color: green</string>
-      </property>
-     </widget>
-     <widget class="QWidget" name="widget_267" native="true">
-      <property name="geometry">
-       <rect>
-        <x>73</x>
-        <y>27</y>
-        <width>22</width>
-        <height>22</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">background-color: green</string>
-      </property>
-     </widget>
-     <widget class="QWidget" name="widget_268" native="true">
-      <property name="geometry">
-       <rect>
-        <x>25</x>
-        <y>27</y>
-        <width>22</width>
-        <height>22</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">background-color: green</string>
-      </property>
-     </widget>
-     <widget class="QWidget" name="widget_269" native="true">
-      <property name="geometry">
-       <rect>
-        <x>25</x>
-        <y>2</y>
-        <width>22</width>
-        <height>22</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">background-color: green</string>
-      </property>
-     </widget>
-    </widget>
-    <widget class="QWidget" name="Buffer_LEFT_13" native="true">
-     <property name="geometry">
-      <rect>
-       <x>1</x>
-       <y>133</y>
-       <width>120</width>
-       <height>80</height>
-      </rect>
-     </property>
-     <property name="styleSheet">
-      <string notr="true">background-color: rgba(0,0,0,0)</string>
-     </property>
-     <widget class="QWidget" name="LEFTHigh0_13" native="true">
-      <property name="geometry">
-       <rect>
-        <x>73</x>
-        <y>2</y>
-        <width>22</width>
-        <height>22</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">background-color: green</string>
-      </property>
-     </widget>
-     <widget class="QWidget" name="LEFTLow1_13" native="true">
-      <property name="geometry">
-       <rect>
-        <x>49</x>
-        <y>27</y>
-        <width>22</width>
-        <height>22</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">background-color: green</string>
-      </property>
-     </widget>
-     <widget class="QWidget" name="LEFTHigh1_13" native="true">
-      <property name="geometry">
-       <rect>
-        <x>49</x>
-        <y>2</y>
-        <width>22</width>
-        <height>22</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">background-color: green</string>
-      </property>
-     </widget>
-     <widget class="QWidget" name="LEFTLow0_13" native="true">
-      <property name="geometry">
-       <rect>
-        <x>73</x>
-        <y>27</y>
-        <width>22</width>
-        <height>22</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">background-color: green</string>
-      </property>
-     </widget>
-     <widget class="QWidget" name="LEFTLow2_13" native="true">
-      <property name="geometry">
-       <rect>
-        <x>25</x>
-        <y>27</y>
-        <width>22</width>
-        <height>22</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">background-color: green</string>
-      </property>
-     </widget>
-     <widget class="QWidget" name="LEFTHigh2_13" native="true">
-      <property name="geometry">
-       <rect>
-        <x>25</x>
-        <y>2</y>
-        <width>22</width>
-        <height>22</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">background-color: green</string>
-      </property>
-     </widget>
-    </widget>
-    <zorder>label_13</zorder>
-    <zorder>Buffer_DOWN_13</zorder>
-    <zorder>Buffer_UP_13</zorder>
-    <zorder>Buffer_RIGHT_13</zorder>
-    <zorder>Buffer_LEFT_13</zorder>
    </widget>
    <widget class="QWidget" name="widget_8" native="true">
     <property name="geometry">
@@ -4200,27 +1554,2673 @@
     <zorder>Buffer_DOWN_3</zorder>
     <zorder>Buffer_UP_3</zorder>
    </widget>
+   <widget class="QWidget" name="Rout0" native="true">
+    <property name="geometry">
+     <rect>
+      <x>800</x>
+      <y>360</y>
+      <width>291</width>
+      <height>331</height>
+     </rect>
+    </property>
+    <widget class="QWidget" name="Buffer_DOWN_4" native="true">
+     <property name="geometry">
+      <rect>
+       <x>97</x>
+       <y>206</y>
+       <width>81</width>
+       <height>80</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgba(0,0,0,0)</string>
+     </property>
+     <widget class="QWidget" name="HighC_15" native="true">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>50</y>
+        <width>22</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: green</string>
+      </property>
+     </widget>
+     <widget class="QWidget" name="HighB_15" native="true">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>26</y>
+        <width>22</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: green</string>
+      </property>
+     </widget>
+     <widget class="QWidget" name="HighA_15" native="true">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>2</y>
+        <width>22</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: green</string>
+      </property>
+     </widget>
+     <widget class="QWidget" name="LowC_15" native="true">
+      <property name="geometry">
+       <rect>
+        <x>25</x>
+        <y>50</y>
+        <width>22</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: green</string>
+      </property>
+     </widget>
+     <widget class="QWidget" name="LowB_15" native="true">
+      <property name="geometry">
+       <rect>
+        <x>25</x>
+        <y>26</y>
+        <width>22</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: green</string>
+      </property>
+     </widget>
+     <widget class="QWidget" name="LowA_15" native="true">
+      <property name="geometry">
+       <rect>
+        <x>25</x>
+        <y>2</y>
+        <width>22</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: green</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="Buffer_UP_4" native="true">
+     <property name="geometry">
+      <rect>
+       <x>97</x>
+       <y>36</y>
+       <width>120</width>
+       <height>80</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgba(0,0,0,0)</string>
+     </property>
+     <widget class="QWidget" name="HighA_16" native="true">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>50</y>
+        <width>22</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: green</string>
+      </property>
+     </widget>
+     <widget class="QWidget" name="HighB_16" native="true">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>26</y>
+        <width>22</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: green</string>
+      </property>
+     </widget>
+     <widget class="QWidget" name="HighC_16" native="true">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>2</y>
+        <width>22</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: green</string>
+      </property>
+     </widget>
+     <widget class="QWidget" name="LowA_16" native="true">
+      <property name="geometry">
+       <rect>
+        <x>25</x>
+        <y>50</y>
+        <width>22</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: green</string>
+      </property>
+     </widget>
+     <widget class="QWidget" name="LowB_16" native="true">
+      <property name="geometry">
+       <rect>
+        <x>25</x>
+        <y>26</y>
+        <width>22</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: green</string>
+      </property>
+     </widget>
+     <widget class="QWidget" name="LowC_16" native="true">
+      <property name="geometry">
+       <rect>
+        <x>25</x>
+        <y>2</y>
+        <width>22</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: green</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QLabel" name="label_4">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>-6</y>
+       <width>291</width>
+       <height>331</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap>../Images/Consumer_Router.png</pixmap>
+     </property>
+    </widget>
+    <widget class="QWidget" name="Buffer_RIGHT_4" native="true">
+     <property name="geometry">
+      <rect>
+       <x>170</x>
+       <y>133</y>
+       <width>120</width>
+       <height>80</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgba(0,0,0,0)</string>
+     </property>
+     <widget class="QWidget" name="HighC_17" native="true">
+      <property name="geometry">
+       <rect>
+        <x>73</x>
+        <y>2</y>
+        <width>22</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: green</string>
+      </property>
+     </widget>
+     <widget class="QWidget" name="LowB_17" native="true">
+      <property name="geometry">
+       <rect>
+        <x>49</x>
+        <y>27</y>
+        <width>22</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: green</string>
+      </property>
+     </widget>
+     <widget class="QWidget" name="HighB_17" native="true">
+      <property name="geometry">
+       <rect>
+        <x>49</x>
+        <y>2</y>
+        <width>22</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: green</string>
+      </property>
+     </widget>
+     <widget class="QWidget" name="LowC_17" native="true">
+      <property name="geometry">
+       <rect>
+        <x>73</x>
+        <y>27</y>
+        <width>22</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: green</string>
+      </property>
+     </widget>
+     <widget class="QWidget" name="LowA_17" native="true">
+      <property name="geometry">
+       <rect>
+        <x>25</x>
+        <y>27</y>
+        <width>22</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: green</string>
+      </property>
+     </widget>
+     <widget class="QWidget" name="HighA_17" native="true">
+      <property name="geometry">
+       <rect>
+        <x>25</x>
+        <y>2</y>
+        <width>22</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: green</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="Buffer_LEFT_4" native="true">
+     <property name="geometry">
+      <rect>
+       <x>1</x>
+       <y>133</y>
+       <width>120</width>
+       <height>80</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgba(0,0,0,0)</string>
+     </property>
+     <widget class="QWidget" name="HighA_18" native="true">
+      <property name="geometry">
+       <rect>
+        <x>73</x>
+        <y>2</y>
+        <width>22</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: green</string>
+      </property>
+     </widget>
+     <widget class="QWidget" name="LowB_18" native="true">
+      <property name="geometry">
+       <rect>
+        <x>49</x>
+        <y>27</y>
+        <width>22</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: green</string>
+      </property>
+     </widget>
+     <widget class="QWidget" name="HighB_18" native="true">
+      <property name="geometry">
+       <rect>
+        <x>49</x>
+        <y>2</y>
+        <width>22</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: green</string>
+      </property>
+     </widget>
+     <widget class="QWidget" name="LowA_18" native="true">
+      <property name="geometry">
+       <rect>
+        <x>73</x>
+        <y>27</y>
+        <width>22</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: green</string>
+      </property>
+     </widget>
+     <widget class="QWidget" name="LowC_18" native="true">
+      <property name="geometry">
+       <rect>
+        <x>25</x>
+        <y>27</y>
+        <width>22</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: green</string>
+      </property>
+     </widget>
+     <widget class="QWidget" name="HighC_18" native="true">
+      <property name="geometry">
+       <rect>
+        <x>25</x>
+        <y>2</y>
+        <width>22</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: green</string>
+      </property>
+     </widget>
+    </widget>
+    <zorder>label_4</zorder>
+    <zorder>Buffer_RIGHT_4</zorder>
+    <zorder>Buffer_LEFT_4</zorder>
+    <zorder>Buffer_DOWN_4</zorder>
+    <zorder>Buffer_UP_4</zorder>
+   </widget>
+   <widget class="QWidget" name="Rout6" native="true">
+    <property name="geometry">
+     <rect>
+      <x>409</x>
+      <y>720</y>
+      <width>291</width>
+      <height>331</height>
+     </rect>
+    </property>
+    <widget class="QWidget" name="Buffer_DOWN_5" native="true">
+     <property name="geometry">
+      <rect>
+       <x>97</x>
+       <y>206</y>
+       <width>81</width>
+       <height>80</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgba(0,0,0,0)</string>
+     </property>
+     <widget class="QWidget" name="HighC_19" native="true">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>50</y>
+        <width>22</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: green</string>
+      </property>
+     </widget>
+     <widget class="QWidget" name="HighB_19" native="true">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>26</y>
+        <width>22</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: green</string>
+      </property>
+     </widget>
+     <widget class="QWidget" name="HighA_19" native="true">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>2</y>
+        <width>22</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: green</string>
+      </property>
+     </widget>
+     <widget class="QWidget" name="LowC_19" native="true">
+      <property name="geometry">
+       <rect>
+        <x>25</x>
+        <y>50</y>
+        <width>22</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: green</string>
+      </property>
+     </widget>
+     <widget class="QWidget" name="LowB_19" native="true">
+      <property name="geometry">
+       <rect>
+        <x>25</x>
+        <y>26</y>
+        <width>22</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: green</string>
+      </property>
+     </widget>
+     <widget class="QWidget" name="LowA_19" native="true">
+      <property name="geometry">
+       <rect>
+        <x>25</x>
+        <y>2</y>
+        <width>22</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: green</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="Buffer_UP_5" native="true">
+     <property name="geometry">
+      <rect>
+       <x>97</x>
+       <y>36</y>
+       <width>120</width>
+       <height>80</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgba(0,0,0,0)</string>
+     </property>
+     <widget class="QWidget" name="HighA_20" native="true">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>50</y>
+        <width>22</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: green</string>
+      </property>
+     </widget>
+     <widget class="QWidget" name="HighB_20" native="true">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>26</y>
+        <width>22</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: green</string>
+      </property>
+     </widget>
+     <widget class="QWidget" name="HighC_20" native="true">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>2</y>
+        <width>22</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: green</string>
+      </property>
+     </widget>
+     <widget class="QWidget" name="LowA_20" native="true">
+      <property name="geometry">
+       <rect>
+        <x>25</x>
+        <y>50</y>
+        <width>22</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: green</string>
+      </property>
+     </widget>
+     <widget class="QWidget" name="LowB_20" native="true">
+      <property name="geometry">
+       <rect>
+        <x>25</x>
+        <y>26</y>
+        <width>22</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: green</string>
+      </property>
+     </widget>
+     <widget class="QWidget" name="LowC_20" native="true">
+      <property name="geometry">
+       <rect>
+        <x>25</x>
+        <y>2</y>
+        <width>22</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: green</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QLabel" name="label_5">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>-6</y>
+       <width>291</width>
+       <height>331</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap>../Images/Consumer_Router.png</pixmap>
+     </property>
+    </widget>
+    <widget class="QWidget" name="Buffer_RIGHT_5" native="true">
+     <property name="geometry">
+      <rect>
+       <x>170</x>
+       <y>133</y>
+       <width>120</width>
+       <height>80</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgba(0,0,0,0)</string>
+     </property>
+     <widget class="QWidget" name="HighC_21" native="true">
+      <property name="geometry">
+       <rect>
+        <x>73</x>
+        <y>2</y>
+        <width>22</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: green</string>
+      </property>
+     </widget>
+     <widget class="QWidget" name="LowB_21" native="true">
+      <property name="geometry">
+       <rect>
+        <x>49</x>
+        <y>27</y>
+        <width>22</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: green</string>
+      </property>
+     </widget>
+     <widget class="QWidget" name="HighB_21" native="true">
+      <property name="geometry">
+       <rect>
+        <x>49</x>
+        <y>2</y>
+        <width>22</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: green</string>
+      </property>
+     </widget>
+     <widget class="QWidget" name="LowC_21" native="true">
+      <property name="geometry">
+       <rect>
+        <x>73</x>
+        <y>27</y>
+        <width>22</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: green</string>
+      </property>
+     </widget>
+     <widget class="QWidget" name="LowA_21" native="true">
+      <property name="geometry">
+       <rect>
+        <x>25</x>
+        <y>27</y>
+        <width>22</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: green</string>
+      </property>
+     </widget>
+     <widget class="QWidget" name="HighA_21" native="true">
+      <property name="geometry">
+       <rect>
+        <x>25</x>
+        <y>2</y>
+        <width>22</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: green</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="Buffer_LEFT_5" native="true">
+     <property name="geometry">
+      <rect>
+       <x>1</x>
+       <y>133</y>
+       <width>120</width>
+       <height>80</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgba(0,0,0,0)</string>
+     </property>
+     <widget class="QWidget" name="HighA_22" native="true">
+      <property name="geometry">
+       <rect>
+        <x>73</x>
+        <y>2</y>
+        <width>22</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: green</string>
+      </property>
+     </widget>
+     <widget class="QWidget" name="LowB_22" native="true">
+      <property name="geometry">
+       <rect>
+        <x>49</x>
+        <y>27</y>
+        <width>22</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: green</string>
+      </property>
+     </widget>
+     <widget class="QWidget" name="HighB_22" native="true">
+      <property name="geometry">
+       <rect>
+        <x>49</x>
+        <y>2</y>
+        <width>22</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: green</string>
+      </property>
+     </widget>
+     <widget class="QWidget" name="LowA_22" native="true">
+      <property name="geometry">
+       <rect>
+        <x>73</x>
+        <y>27</y>
+        <width>22</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: green</string>
+      </property>
+     </widget>
+     <widget class="QWidget" name="LowC_22" native="true">
+      <property name="geometry">
+       <rect>
+        <x>25</x>
+        <y>27</y>
+        <width>22</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: green</string>
+      </property>
+     </widget>
+     <widget class="QWidget" name="HighC_22" native="true">
+      <property name="geometry">
+       <rect>
+        <x>25</x>
+        <y>2</y>
+        <width>22</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: green</string>
+      </property>
+     </widget>
+    </widget>
+    <zorder>label_5</zorder>
+    <zorder>Buffer_RIGHT_5</zorder>
+    <zorder>Buffer_LEFT_5</zorder>
+    <zorder>Buffer_DOWN_5</zorder>
+    <zorder>Buffer_UP_5</zorder>
+   </widget>
+   <widget class="QWidget" name="Rout4" native="true">
+    <property name="geometry">
+     <rect>
+      <x>1192</x>
+      <y>720</y>
+      <width>291</width>
+      <height>331</height>
+     </rect>
+    </property>
+    <widget class="QWidget" name="Buffer_DOWN_7" native="true">
+     <property name="geometry">
+      <rect>
+       <x>97</x>
+       <y>206</y>
+       <width>81</width>
+       <height>80</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgba(0,0,0,0)</string>
+     </property>
+     <widget class="QWidget" name="HighC_23" native="true">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>50</y>
+        <width>22</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: green</string>
+      </property>
+     </widget>
+     <widget class="QWidget" name="HighB_23" native="true">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>26</y>
+        <width>22</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: green</string>
+      </property>
+     </widget>
+     <widget class="QWidget" name="HighA_23" native="true">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>2</y>
+        <width>22</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: green</string>
+      </property>
+     </widget>
+     <widget class="QWidget" name="LowC_23" native="true">
+      <property name="geometry">
+       <rect>
+        <x>25</x>
+        <y>50</y>
+        <width>22</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: green</string>
+      </property>
+     </widget>
+     <widget class="QWidget" name="LowB_23" native="true">
+      <property name="geometry">
+       <rect>
+        <x>25</x>
+        <y>26</y>
+        <width>22</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: green</string>
+      </property>
+     </widget>
+     <widget class="QWidget" name="LowA_23" native="true">
+      <property name="geometry">
+       <rect>
+        <x>25</x>
+        <y>2</y>
+        <width>22</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: green</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="Buffer_UP_7" native="true">
+     <property name="geometry">
+      <rect>
+       <x>97</x>
+       <y>36</y>
+       <width>120</width>
+       <height>80</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgba(0,0,0,0)</string>
+     </property>
+     <widget class="QWidget" name="HighA_24" native="true">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>50</y>
+        <width>22</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: green</string>
+      </property>
+     </widget>
+     <widget class="QWidget" name="HighB_24" native="true">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>26</y>
+        <width>22</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: green</string>
+      </property>
+     </widget>
+     <widget class="QWidget" name="HighC_24" native="true">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>2</y>
+        <width>22</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: green</string>
+      </property>
+     </widget>
+     <widget class="QWidget" name="LowA_24" native="true">
+      <property name="geometry">
+       <rect>
+        <x>25</x>
+        <y>50</y>
+        <width>22</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: green</string>
+      </property>
+     </widget>
+     <widget class="QWidget" name="LowB_24" native="true">
+      <property name="geometry">
+       <rect>
+        <x>25</x>
+        <y>26</y>
+        <width>22</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: green</string>
+      </property>
+     </widget>
+     <widget class="QWidget" name="LowC_24" native="true">
+      <property name="geometry">
+       <rect>
+        <x>25</x>
+        <y>2</y>
+        <width>22</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: green</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QLabel" name="label_7">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>-6</y>
+       <width>291</width>
+       <height>331</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap>../Images/Consumer_Router.png</pixmap>
+     </property>
+    </widget>
+    <widget class="QWidget" name="Buffer_RIGHT_7" native="true">
+     <property name="geometry">
+      <rect>
+       <x>170</x>
+       <y>133</y>
+       <width>120</width>
+       <height>80</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgba(0,0,0,0)</string>
+     </property>
+     <widget class="QWidget" name="HighC_25" native="true">
+      <property name="geometry">
+       <rect>
+        <x>73</x>
+        <y>2</y>
+        <width>22</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: green</string>
+      </property>
+     </widget>
+     <widget class="QWidget" name="LowB_25" native="true">
+      <property name="geometry">
+       <rect>
+        <x>49</x>
+        <y>27</y>
+        <width>22</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: green</string>
+      </property>
+     </widget>
+     <widget class="QWidget" name="HighB_25" native="true">
+      <property name="geometry">
+       <rect>
+        <x>49</x>
+        <y>2</y>
+        <width>22</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: green</string>
+      </property>
+     </widget>
+     <widget class="QWidget" name="LowC_25" native="true">
+      <property name="geometry">
+       <rect>
+        <x>73</x>
+        <y>27</y>
+        <width>22</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: green</string>
+      </property>
+     </widget>
+     <widget class="QWidget" name="LowA_25" native="true">
+      <property name="geometry">
+       <rect>
+        <x>25</x>
+        <y>27</y>
+        <width>22</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: green</string>
+      </property>
+     </widget>
+     <widget class="QWidget" name="HighA_25" native="true">
+      <property name="geometry">
+       <rect>
+        <x>25</x>
+        <y>2</y>
+        <width>22</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: green</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="Buffer_LEFT_7" native="true">
+     <property name="geometry">
+      <rect>
+       <x>1</x>
+       <y>133</y>
+       <width>120</width>
+       <height>80</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgba(0,0,0,0)</string>
+     </property>
+     <widget class="QWidget" name="HighA_26" native="true">
+      <property name="geometry">
+       <rect>
+        <x>73</x>
+        <y>2</y>
+        <width>22</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: green</string>
+      </property>
+     </widget>
+     <widget class="QWidget" name="LowB_26" native="true">
+      <property name="geometry">
+       <rect>
+        <x>49</x>
+        <y>27</y>
+        <width>22</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: green</string>
+      </property>
+     </widget>
+     <widget class="QWidget" name="HighB_26" native="true">
+      <property name="geometry">
+       <rect>
+        <x>49</x>
+        <y>2</y>
+        <width>22</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: green</string>
+      </property>
+     </widget>
+     <widget class="QWidget" name="LowA_26" native="true">
+      <property name="geometry">
+       <rect>
+        <x>73</x>
+        <y>27</y>
+        <width>22</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: green</string>
+      </property>
+     </widget>
+     <widget class="QWidget" name="LowC_26" native="true">
+      <property name="geometry">
+       <rect>
+        <x>25</x>
+        <y>27</y>
+        <width>22</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: green</string>
+      </property>
+     </widget>
+     <widget class="QWidget" name="HighC_26" native="true">
+      <property name="geometry">
+       <rect>
+        <x>25</x>
+        <y>2</y>
+        <width>22</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: green</string>
+      </property>
+     </widget>
+    </widget>
+    <zorder>label_7</zorder>
+    <zorder>Buffer_DOWN_7</zorder>
+    <zorder>Buffer_UP_7</zorder>
+    <zorder>Buffer_RIGHT_7</zorder>
+    <zorder>Buffer_LEFT_7</zorder>
+   </widget>
+   <widget class="QWidget" name="Rout2" native="true">
+    <property name="geometry">
+     <rect>
+      <x>1192</x>
+      <y>0</y>
+      <width>301</width>
+      <height>331</height>
+     </rect>
+    </property>
+    <widget class="QWidget" name="Buffer_DOWN_6" native="true">
+     <property name="geometry">
+      <rect>
+       <x>97</x>
+       <y>206</y>
+       <width>81</width>
+       <height>80</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgba(0,0,0,0)</string>
+     </property>
+     <widget class="QWidget" name="HighC_27" native="true">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>50</y>
+        <width>22</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: green</string>
+      </property>
+     </widget>
+     <widget class="QWidget" name="HighB_27" native="true">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>26</y>
+        <width>22</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: green</string>
+      </property>
+     </widget>
+     <widget class="QWidget" name="HighA_27" native="true">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>2</y>
+        <width>22</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: green</string>
+      </property>
+     </widget>
+     <widget class="QWidget" name="LowC_27" native="true">
+      <property name="geometry">
+       <rect>
+        <x>25</x>
+        <y>50</y>
+        <width>22</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: green</string>
+      </property>
+     </widget>
+     <widget class="QWidget" name="LowB_27" native="true">
+      <property name="geometry">
+       <rect>
+        <x>25</x>
+        <y>26</y>
+        <width>22</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: green</string>
+      </property>
+     </widget>
+     <widget class="QWidget" name="LowA_27" native="true">
+      <property name="geometry">
+       <rect>
+        <x>25</x>
+        <y>2</y>
+        <width>22</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: green</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="Buffer_UP_6" native="true">
+     <property name="geometry">
+      <rect>
+       <x>97</x>
+       <y>36</y>
+       <width>120</width>
+       <height>80</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgba(0,0,0,0)</string>
+     </property>
+     <widget class="QWidget" name="HighA_28" native="true">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>50</y>
+        <width>22</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: green</string>
+      </property>
+     </widget>
+     <widget class="QWidget" name="HighB_28" native="true">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>26</y>
+        <width>22</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: green</string>
+      </property>
+     </widget>
+     <widget class="QWidget" name="HighC_28" native="true">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>2</y>
+        <width>22</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: green</string>
+      </property>
+     </widget>
+     <widget class="QWidget" name="LowA_28" native="true">
+      <property name="geometry">
+       <rect>
+        <x>25</x>
+        <y>50</y>
+        <width>22</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: green</string>
+      </property>
+     </widget>
+     <widget class="QWidget" name="LowB_28" native="true">
+      <property name="geometry">
+       <rect>
+        <x>25</x>
+        <y>26</y>
+        <width>22</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: green</string>
+      </property>
+     </widget>
+     <widget class="QWidget" name="LowC_28" native="true">
+      <property name="geometry">
+       <rect>
+        <x>25</x>
+        <y>2</y>
+        <width>22</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: green</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QLabel" name="label_6">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>-6</y>
+       <width>291</width>
+       <height>331</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap>../Images/Producer_Router.png</pixmap>
+     </property>
+    </widget>
+    <widget class="QWidget" name="Buffer_RIGHT_6" native="true">
+     <property name="geometry">
+      <rect>
+       <x>170</x>
+       <y>133</y>
+       <width>120</width>
+       <height>80</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgba(0,0,0,0)</string>
+     </property>
+     <widget class="QWidget" name="HighC_29" native="true">
+      <property name="geometry">
+       <rect>
+        <x>73</x>
+        <y>2</y>
+        <width>22</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: green</string>
+      </property>
+     </widget>
+     <widget class="QWidget" name="LowB_29" native="true">
+      <property name="geometry">
+       <rect>
+        <x>49</x>
+        <y>27</y>
+        <width>22</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: green</string>
+      </property>
+     </widget>
+     <widget class="QWidget" name="HighB_29" native="true">
+      <property name="geometry">
+       <rect>
+        <x>49</x>
+        <y>2</y>
+        <width>22</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: green</string>
+      </property>
+     </widget>
+     <widget class="QWidget" name="LowC_29" native="true">
+      <property name="geometry">
+       <rect>
+        <x>73</x>
+        <y>27</y>
+        <width>22</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: green</string>
+      </property>
+     </widget>
+     <widget class="QWidget" name="LowA_29" native="true">
+      <property name="geometry">
+       <rect>
+        <x>25</x>
+        <y>27</y>
+        <width>22</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: green</string>
+      </property>
+     </widget>
+     <widget class="QWidget" name="HighA_29" native="true">
+      <property name="geometry">
+       <rect>
+        <x>25</x>
+        <y>2</y>
+        <width>22</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: green</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="Buffer_LEFT_6" native="true">
+     <property name="geometry">
+      <rect>
+       <x>1</x>
+       <y>133</y>
+       <width>120</width>
+       <height>80</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgba(0,0,0,0)</string>
+     </property>
+     <widget class="QWidget" name="HighA_30" native="true">
+      <property name="geometry">
+       <rect>
+        <x>73</x>
+        <y>2</y>
+        <width>22</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: green</string>
+      </property>
+     </widget>
+     <widget class="QWidget" name="LowB_30" native="true">
+      <property name="geometry">
+       <rect>
+        <x>49</x>
+        <y>27</y>
+        <width>22</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: green</string>
+      </property>
+     </widget>
+     <widget class="QWidget" name="HighB_30" native="true">
+      <property name="geometry">
+       <rect>
+        <x>49</x>
+        <y>2</y>
+        <width>22</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: green</string>
+      </property>
+     </widget>
+     <widget class="QWidget" name="LowA_30" native="true">
+      <property name="geometry">
+       <rect>
+        <x>73</x>
+        <y>27</y>
+        <width>22</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: green</string>
+      </property>
+     </widget>
+     <widget class="QWidget" name="LowC_30" native="true">
+      <property name="geometry">
+       <rect>
+        <x>25</x>
+        <y>27</y>
+        <width>22</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: green</string>
+      </property>
+     </widget>
+     <widget class="QWidget" name="HighC_30" native="true">
+      <property name="geometry">
+       <rect>
+        <x>25</x>
+        <y>2</y>
+        <width>22</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: green</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="Buffer_Slave_3" native="true">
+     <property name="geometry">
+      <rect>
+       <x>158</x>
+       <y>194</y>
+       <width>120</width>
+       <height>80</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgba(0,0,0,0)</string>
+     </property>
+     <widget class="QWidget" name="HighC_31" native="true">
+      <property name="geometry">
+       <rect>
+        <x>73</x>
+        <y>2</y>
+        <width>18</width>
+        <height>18</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: green</string>
+      </property>
+     </widget>
+     <widget class="QWidget" name="LowB_31" native="true">
+      <property name="geometry">
+       <rect>
+        <x>54</x>
+        <y>23</y>
+        <width>17</width>
+        <height>18</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: green</string>
+      </property>
+     </widget>
+     <widget class="QWidget" name="HighB_31" native="true">
+      <property name="geometry">
+       <rect>
+        <x>54</x>
+        <y>2</y>
+        <width>17</width>
+        <height>18</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: green</string>
+      </property>
+     </widget>
+     <widget class="QWidget" name="LowC_31" native="true">
+      <property name="geometry">
+       <rect>
+        <x>73</x>
+        <y>23</y>
+        <width>18</width>
+        <height>18</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: green</string>
+      </property>
+     </widget>
+     <widget class="QWidget" name="LowA_31" native="true">
+      <property name="geometry">
+       <rect>
+        <x>34</x>
+        <y>23</y>
+        <width>18</width>
+        <height>18</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: green</string>
+      </property>
+     </widget>
+     <widget class="QWidget" name="HighA_31" native="true">
+      <property name="geometry">
+       <rect>
+        <x>34</x>
+        <y>2</y>
+        <width>18</width>
+        <height>18</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: green</string>
+      </property>
+     </widget>
+    </widget>
+    <zorder>label_6</zorder>
+    <zorder>Buffer_DOWN_6</zorder>
+    <zorder>Buffer_UP_6</zorder>
+    <zorder>Buffer_RIGHT_6</zorder>
+    <zorder>Buffer_LEFT_6</zorder>
+    <zorder>Buffer_Slave_3</zorder>
+   </widget>
+   <widget class="QWidget" name="Rout3" native="true">
+    <property name="geometry">
+     <rect>
+      <x>1191</x>
+      <y>360</y>
+      <width>301</width>
+      <height>331</height>
+     </rect>
+    </property>
+    <widget class="QWidget" name="Buffer_DOWN_8" native="true">
+     <property name="geometry">
+      <rect>
+       <x>97</x>
+       <y>206</y>
+       <width>81</width>
+       <height>80</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgba(0,0,0,0)</string>
+     </property>
+     <widget class="QWidget" name="HighC_32" native="true">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>50</y>
+        <width>22</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: green</string>
+      </property>
+     </widget>
+     <widget class="QWidget" name="HighB_32" native="true">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>26</y>
+        <width>22</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: green</string>
+      </property>
+     </widget>
+     <widget class="QWidget" name="HighA_32" native="true">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>2</y>
+        <width>22</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: green</string>
+      </property>
+     </widget>
+     <widget class="QWidget" name="LowC_32" native="true">
+      <property name="geometry">
+       <rect>
+        <x>25</x>
+        <y>50</y>
+        <width>22</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: green</string>
+      </property>
+     </widget>
+     <widget class="QWidget" name="LowB_32" native="true">
+      <property name="geometry">
+       <rect>
+        <x>25</x>
+        <y>26</y>
+        <width>22</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: green</string>
+      </property>
+     </widget>
+     <widget class="QWidget" name="LowA_32" native="true">
+      <property name="geometry">
+       <rect>
+        <x>25</x>
+        <y>2</y>
+        <width>22</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: green</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="Buffer_UP_8" native="true">
+     <property name="geometry">
+      <rect>
+       <x>97</x>
+       <y>36</y>
+       <width>120</width>
+       <height>80</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgba(0,0,0,0)</string>
+     </property>
+     <widget class="QWidget" name="HighA_33" native="true">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>50</y>
+        <width>22</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: green</string>
+      </property>
+     </widget>
+     <widget class="QWidget" name="HighB_33" native="true">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>26</y>
+        <width>22</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: green</string>
+      </property>
+     </widget>
+     <widget class="QWidget" name="HighC_33" native="true">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>2</y>
+        <width>22</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: green</string>
+      </property>
+     </widget>
+     <widget class="QWidget" name="LowA_33" native="true">
+      <property name="geometry">
+       <rect>
+        <x>25</x>
+        <y>50</y>
+        <width>22</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: green</string>
+      </property>
+     </widget>
+     <widget class="QWidget" name="LowB_33" native="true">
+      <property name="geometry">
+       <rect>
+        <x>25</x>
+        <y>26</y>
+        <width>22</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: green</string>
+      </property>
+     </widget>
+     <widget class="QWidget" name="LowC_33" native="true">
+      <property name="geometry">
+       <rect>
+        <x>25</x>
+        <y>2</y>
+        <width>22</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: green</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QLabel" name="label_8">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>-6</y>
+       <width>291</width>
+       <height>331</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap>../Images/Producer_Router.png</pixmap>
+     </property>
+    </widget>
+    <widget class="QWidget" name="Buffer_RIGHT_8" native="true">
+     <property name="geometry">
+      <rect>
+       <x>170</x>
+       <y>133</y>
+       <width>120</width>
+       <height>80</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgba(0,0,0,0)</string>
+     </property>
+     <widget class="QWidget" name="HighC_34" native="true">
+      <property name="geometry">
+       <rect>
+        <x>73</x>
+        <y>2</y>
+        <width>22</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: green</string>
+      </property>
+     </widget>
+     <widget class="QWidget" name="LowB_34" native="true">
+      <property name="geometry">
+       <rect>
+        <x>49</x>
+        <y>27</y>
+        <width>22</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: green</string>
+      </property>
+     </widget>
+     <widget class="QWidget" name="HighB_34" native="true">
+      <property name="geometry">
+       <rect>
+        <x>49</x>
+        <y>2</y>
+        <width>22</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: green</string>
+      </property>
+     </widget>
+     <widget class="QWidget" name="LowC_34" native="true">
+      <property name="geometry">
+       <rect>
+        <x>73</x>
+        <y>27</y>
+        <width>22</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: green</string>
+      </property>
+     </widget>
+     <widget class="QWidget" name="LowA_34" native="true">
+      <property name="geometry">
+       <rect>
+        <x>25</x>
+        <y>27</y>
+        <width>22</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: green</string>
+      </property>
+     </widget>
+     <widget class="QWidget" name="HighA_34" native="true">
+      <property name="geometry">
+       <rect>
+        <x>25</x>
+        <y>2</y>
+        <width>22</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: green</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="Buffer_LEFT_8" native="true">
+     <property name="geometry">
+      <rect>
+       <x>1</x>
+       <y>133</y>
+       <width>120</width>
+       <height>80</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgba(0,0,0,0)</string>
+     </property>
+     <widget class="QWidget" name="HighA_35" native="true">
+      <property name="geometry">
+       <rect>
+        <x>73</x>
+        <y>2</y>
+        <width>22</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: green</string>
+      </property>
+     </widget>
+     <widget class="QWidget" name="LowB_35" native="true">
+      <property name="geometry">
+       <rect>
+        <x>49</x>
+        <y>27</y>
+        <width>22</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: green</string>
+      </property>
+     </widget>
+     <widget class="QWidget" name="HighB_35" native="true">
+      <property name="geometry">
+       <rect>
+        <x>49</x>
+        <y>2</y>
+        <width>22</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: green</string>
+      </property>
+     </widget>
+     <widget class="QWidget" name="LowA_35" native="true">
+      <property name="geometry">
+       <rect>
+        <x>73</x>
+        <y>27</y>
+        <width>22</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: green</string>
+      </property>
+     </widget>
+     <widget class="QWidget" name="LowC_35" native="true">
+      <property name="geometry">
+       <rect>
+        <x>25</x>
+        <y>27</y>
+        <width>22</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: green</string>
+      </property>
+     </widget>
+     <widget class="QWidget" name="HighC_35" native="true">
+      <property name="geometry">
+       <rect>
+        <x>25</x>
+        <y>2</y>
+        <width>22</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: green</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="Buffer_Slave_4" native="true">
+     <property name="geometry">
+      <rect>
+       <x>158</x>
+       <y>194</y>
+       <width>120</width>
+       <height>80</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgba(0,0,0,0)</string>
+     </property>
+     <widget class="QWidget" name="HighC_36" native="true">
+      <property name="geometry">
+       <rect>
+        <x>73</x>
+        <y>2</y>
+        <width>18</width>
+        <height>18</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: green</string>
+      </property>
+     </widget>
+     <widget class="QWidget" name="LowB_36" native="true">
+      <property name="geometry">
+       <rect>
+        <x>54</x>
+        <y>23</y>
+        <width>17</width>
+        <height>18</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: green</string>
+      </property>
+     </widget>
+     <widget class="QWidget" name="HighB_36" native="true">
+      <property name="geometry">
+       <rect>
+        <x>54</x>
+        <y>2</y>
+        <width>17</width>
+        <height>18</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: green</string>
+      </property>
+     </widget>
+     <widget class="QWidget" name="LowC_36" native="true">
+      <property name="geometry">
+       <rect>
+        <x>73</x>
+        <y>23</y>
+        <width>18</width>
+        <height>18</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: green</string>
+      </property>
+     </widget>
+     <widget class="QWidget" name="LowA_36" native="true">
+      <property name="geometry">
+       <rect>
+        <x>34</x>
+        <y>23</y>
+        <width>18</width>
+        <height>18</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: green</string>
+      </property>
+     </widget>
+     <widget class="QWidget" name="HighA_36" native="true">
+      <property name="geometry">
+       <rect>
+        <x>34</x>
+        <y>2</y>
+        <width>18</width>
+        <height>18</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: green</string>
+      </property>
+     </widget>
+    </widget>
+    <zorder>label_8</zorder>
+    <zorder>Buffer_RIGHT_8</zorder>
+    <zorder>Buffer_LEFT_8</zorder>
+    <zorder>Buffer_Slave_4</zorder>
+    <zorder>Buffer_DOWN_8</zorder>
+    <zorder>Buffer_UP_8</zorder>
+   </widget>
+   <widget class="QWidget" name="Rout5" native="true">
+    <property name="geometry">
+     <rect>
+      <x>799</x>
+      <y>720</y>
+      <width>301</width>
+      <height>331</height>
+     </rect>
+    </property>
+    <widget class="QWidget" name="Buffer_DOWN_9" native="true">
+     <property name="geometry">
+      <rect>
+       <x>97</x>
+       <y>206</y>
+       <width>81</width>
+       <height>80</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgba(0,0,0,0)</string>
+     </property>
+     <widget class="QWidget" name="HighC_37" native="true">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>50</y>
+        <width>22</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: green</string>
+      </property>
+     </widget>
+     <widget class="QWidget" name="HighB_37" native="true">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>26</y>
+        <width>22</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: green</string>
+      </property>
+     </widget>
+     <widget class="QWidget" name="HighA_37" native="true">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>2</y>
+        <width>22</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: green</string>
+      </property>
+     </widget>
+     <widget class="QWidget" name="LowC_37" native="true">
+      <property name="geometry">
+       <rect>
+        <x>25</x>
+        <y>50</y>
+        <width>22</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: green</string>
+      </property>
+     </widget>
+     <widget class="QWidget" name="LowB_37" native="true">
+      <property name="geometry">
+       <rect>
+        <x>25</x>
+        <y>26</y>
+        <width>22</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: green</string>
+      </property>
+     </widget>
+     <widget class="QWidget" name="LowA_37" native="true">
+      <property name="geometry">
+       <rect>
+        <x>25</x>
+        <y>2</y>
+        <width>22</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: green</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="Buffer_UP_9" native="true">
+     <property name="geometry">
+      <rect>
+       <x>97</x>
+       <y>36</y>
+       <width>120</width>
+       <height>80</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgba(0,0,0,0)</string>
+     </property>
+     <widget class="QWidget" name="HighA_38" native="true">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>50</y>
+        <width>22</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: green</string>
+      </property>
+     </widget>
+     <widget class="QWidget" name="HighB_38" native="true">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>26</y>
+        <width>22</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: green</string>
+      </property>
+     </widget>
+     <widget class="QWidget" name="HighC_38" native="true">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>2</y>
+        <width>22</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: green</string>
+      </property>
+     </widget>
+     <widget class="QWidget" name="LowA_38" native="true">
+      <property name="geometry">
+       <rect>
+        <x>25</x>
+        <y>50</y>
+        <width>22</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: green</string>
+      </property>
+     </widget>
+     <widget class="QWidget" name="LowB_38" native="true">
+      <property name="geometry">
+       <rect>
+        <x>25</x>
+        <y>26</y>
+        <width>22</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: green</string>
+      </property>
+     </widget>
+     <widget class="QWidget" name="LowC_38" native="true">
+      <property name="geometry">
+       <rect>
+        <x>25</x>
+        <y>2</y>
+        <width>22</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: green</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QLabel" name="label_9">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>-6</y>
+       <width>291</width>
+       <height>331</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap>../Images/Producer_Router.png</pixmap>
+     </property>
+    </widget>
+    <widget class="QWidget" name="Buffer_RIGHT_9" native="true">
+     <property name="geometry">
+      <rect>
+       <x>170</x>
+       <y>133</y>
+       <width>120</width>
+       <height>80</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgba(0,0,0,0)</string>
+     </property>
+     <widget class="QWidget" name="HighC_39" native="true">
+      <property name="geometry">
+       <rect>
+        <x>73</x>
+        <y>2</y>
+        <width>22</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: green</string>
+      </property>
+     </widget>
+     <widget class="QWidget" name="LowB_39" native="true">
+      <property name="geometry">
+       <rect>
+        <x>49</x>
+        <y>27</y>
+        <width>22</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: green</string>
+      </property>
+     </widget>
+     <widget class="QWidget" name="HighB_39" native="true">
+      <property name="geometry">
+       <rect>
+        <x>49</x>
+        <y>2</y>
+        <width>22</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: green</string>
+      </property>
+     </widget>
+     <widget class="QWidget" name="LowC_39" native="true">
+      <property name="geometry">
+       <rect>
+        <x>73</x>
+        <y>27</y>
+        <width>22</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: green</string>
+      </property>
+     </widget>
+     <widget class="QWidget" name="LowA_39" native="true">
+      <property name="geometry">
+       <rect>
+        <x>25</x>
+        <y>27</y>
+        <width>22</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: green</string>
+      </property>
+     </widget>
+     <widget class="QWidget" name="HighA_39" native="true">
+      <property name="geometry">
+       <rect>
+        <x>25</x>
+        <y>2</y>
+        <width>22</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: green</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="Buffer_LEFT_9" native="true">
+     <property name="geometry">
+      <rect>
+       <x>1</x>
+       <y>133</y>
+       <width>120</width>
+       <height>80</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgba(0,0,0,0)</string>
+     </property>
+     <widget class="QWidget" name="HighA_40" native="true">
+      <property name="geometry">
+       <rect>
+        <x>73</x>
+        <y>2</y>
+        <width>22</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: green</string>
+      </property>
+     </widget>
+     <widget class="QWidget" name="LowB_40" native="true">
+      <property name="geometry">
+       <rect>
+        <x>49</x>
+        <y>27</y>
+        <width>22</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: green</string>
+      </property>
+     </widget>
+     <widget class="QWidget" name="HighB_40" native="true">
+      <property name="geometry">
+       <rect>
+        <x>49</x>
+        <y>2</y>
+        <width>22</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: green</string>
+      </property>
+     </widget>
+     <widget class="QWidget" name="LowA_40" native="true">
+      <property name="geometry">
+       <rect>
+        <x>73</x>
+        <y>27</y>
+        <width>22</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: green</string>
+      </property>
+     </widget>
+     <widget class="QWidget" name="LowC_40" native="true">
+      <property name="geometry">
+       <rect>
+        <x>25</x>
+        <y>27</y>
+        <width>22</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: green</string>
+      </property>
+     </widget>
+     <widget class="QWidget" name="HighC_40" native="true">
+      <property name="geometry">
+       <rect>
+        <x>25</x>
+        <y>2</y>
+        <width>22</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: green</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="Buffer_Slave_5" native="true">
+     <property name="geometry">
+      <rect>
+       <x>158</x>
+       <y>194</y>
+       <width>120</width>
+       <height>80</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgba(0,0,0,0)</string>
+     </property>
+     <widget class="QWidget" name="HighC_41" native="true">
+      <property name="geometry">
+       <rect>
+        <x>73</x>
+        <y>2</y>
+        <width>18</width>
+        <height>18</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: green</string>
+      </property>
+     </widget>
+     <widget class="QWidget" name="LowB_41" native="true">
+      <property name="geometry">
+       <rect>
+        <x>54</x>
+        <y>23</y>
+        <width>17</width>
+        <height>18</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: green</string>
+      </property>
+     </widget>
+     <widget class="QWidget" name="HighB_41" native="true">
+      <property name="geometry">
+       <rect>
+        <x>54</x>
+        <y>2</y>
+        <width>17</width>
+        <height>18</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: green</string>
+      </property>
+     </widget>
+     <widget class="QWidget" name="LowC_41" native="true">
+      <property name="geometry">
+       <rect>
+        <x>73</x>
+        <y>23</y>
+        <width>18</width>
+        <height>18</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: green</string>
+      </property>
+     </widget>
+     <widget class="QWidget" name="LowA_41" native="true">
+      <property name="geometry">
+       <rect>
+        <x>34</x>
+        <y>23</y>
+        <width>18</width>
+        <height>18</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: green</string>
+      </property>
+     </widget>
+     <widget class="QWidget" name="HighA_41" native="true">
+      <property name="geometry">
+       <rect>
+        <x>34</x>
+        <y>2</y>
+        <width>18</width>
+        <height>18</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: green</string>
+      </property>
+     </widget>
+    </widget>
+    <zorder>label_9</zorder>
+    <zorder>Buffer_RIGHT_9</zorder>
+    <zorder>Buffer_LEFT_9</zorder>
+    <zorder>Buffer_Slave_5</zorder>
+    <zorder>Buffer_DOWN_9</zorder>
+    <zorder>Buffer_UP_9</zorder>
+   </widget>
+   <zorder>Rout2</zorder>
+   <zorder>Rout3</zorder>
+   <zorder>Rout5</zorder>
+   <zorder>Rout4</zorder>
+   <zorder>Rout6</zorder>
    <zorder>Rout8</zorder>
-   <zorder>Router8_2</zorder>
-   <zorder>Router8_4</zorder>
-   <zorder>Router8_5</zorder>
-   <zorder>Router8_6</zorder>
-   <zorder>Router8_7</zorder>
-   <zorder>Router8_8</zorder>
-   <zorder>Router8_9</zorder>
-   <zorder>widget_9</zorder>
+   <zorder>Rout1</zorder>
    <zorder>widget_10</zorder>
    <zorder>widget_11</zorder>
-   <zorder>widget_12</zorder>
    <zorder>widget_34</zorder>
    <zorder>widget_48</zorder>
    <zorder>widget_49</zorder>
-   <zorder>widget_50</zorder>
    <zorder>widget_51</zorder>
    <zorder>Rout7</zorder>
-   <zorder>widget_47</zorder>
    <zorder>widget_8</zorder>
    <zorder>widget_33</zorder>
+   <zorder>Rout0</zorder>
+   <zorder>widget_47</zorder>
+   <zorder>widget_50</zorder>
+   <zorder>widget_9</zorder>
+   <zorder>widget_12</zorder>
   </widget>
   <widget class="QMenuBar" name="menubar">
    <property name="geometry">

@@ -81,7 +81,7 @@ update_UI()
 def Run_task_scheduler():
     global clock_tick
     if(clock_tick % 5 == 2):
-        FM("Prod4").produce_message(['red','red',],"Con3",1)
+        FM("Prod0").produce_message(['red','red',],"Con1",1)
     if(clock_tick % 8 == 4):
         FM("Prod3").produce_message(['yellow','yellow'],"Con2",1)
     if(clock_tick % 15 == 0):
