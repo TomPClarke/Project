@@ -49,10 +49,10 @@ class Router():
 
     def find_landing_port(self, direction,channel = 0):
         if(direction == "SLAVE"): return (0 + channel)
-        if(direction == "UP"): return (2 + channel)    
-        elif(direction == "RIGHT"): return (4 + channel)       
-        elif(direction == "DOWN"): return (6 + channel)
-        elif(direction == "LEFT"): return (8 + channel)
+        if(direction == "UP"): return (2 + channel) # Bottoms ports are 2 & 3    
+        elif(direction == "RIGHT"): return (4 + channel) # Left ports are 4 & 5       
+        elif(direction == "DOWN"): return (6 + channel) # Up ports are 6 & 7
+        elif(direction == "LEFT"): return (8 + channel) # Right ports are 8 & 9
 
 
     def send(self):

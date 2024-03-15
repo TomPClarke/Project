@@ -18,7 +18,6 @@ def update_UI():
     if not(first_time):
         print('\033[F' * (6 + 5))
     print(f"Clock Tick: {clock_tick}")
-    #print(f"Port 1: {Routers[5].ports[0].data.queue}")
     for x in Consumers:
         Buffer_string = (f"{x.name}'s Buffer: {list(x.data.queue)}")
         if(len(Buffer_string) > MAX_LINE_LENGTH):
@@ -36,11 +35,9 @@ def update_UI():
         elif(len(Buffer_string) < MAX_LINE_LENGTH):
             Buffer_string = Buffer_string + " " * (MAX_LINE_LENGTH - len(Buffer_string))
         print(Buffer_string)
-    #for x in Routers:
-    #    for i in range(0,5):
-    #        print(f"{x.name}'s Buffer on port {i + (clock_tick % 2)}: {list(x.ports[i+ (clock_tick % 2)].data.queue)}                  ")
     first_time = False
     time.sleep(0.1)
+
 
 """
 Chip Layout:
@@ -84,38 +81,69 @@ update_UI()
 def Run_task_scheduler():
     global clock_tick
     if(clock_tick % 5 == 2):
-        FM("Prod4").produce_message(['H','I',],"Con3",1)
+        FM("Prod4").produce_message(['red','red',],"Con3",1)
     if(clock_tick % 8 == 4):
-        FM("Prod0").produce_message(['O','K'],"Con1",1)
+        FM("Prod3").produce_message(['yellow','yellow'],"Con2",1)
     if(clock_tick % 15 == 0):
         random_tasks()
     if(clock_tick % 40 == 0):
         for x in Consumers:
             pass#x.Empty()
 
+
+
 def random_tasks():
     string = "Con"
     string += str(random.randint(0,3))
-    random.choice(Producers[1:3]).produce_message(['W','O','R','M'],string,random.randint(0,1))
+    random.choice(Producers[1:3]).produce_message(['orange','orange','orange','orange'],string,1)
 
 #"""
 ################ THE CLOCK ################
-def on_spacebar(event):
+
+if __name__ == "__main__":    
+    def on_spacebar(event):
+        global clock_tick
+        if event.name == 'space':
+            Run_task_scheduler()
+            clock_tick += 1
+            for x in Routers:
+                x.hold_on()
+            for x in Producers:
+                x.hold_on()
+            for x in Routers:
+                x.send()
+            for x in Producers:
+                x.send()
+            update_UI()
+    keyboard.on_press_key('space', on_spacebar)
+    keyboard.wait('esc')
+
+#I get called every time space is pressed
+def getJSONGUI():
     global clock_tick
-    if event.name == 'space':
-        Run_task_scheduler()
-        clock_tick += 1
-        for x in Routers:
-            x.hold_on()
-        for x in Producers:
-            x.hold_on()
-        for x in Routers:
-            x.send()
-        for x in Producers:
-            x.send()
-        update_UI()
-keyboard.on_press_key('space', on_spacebar)
-keyboard.wait('esc')
+    Run_task_scheduler()
+    clock_tick+= 1
+    for x in Routers:
+        x.hold_on()
+    for x in Producers:
+        x.hold_on()
+    for x in Routers:
+        x.send()
+    for x in Producers:
+        x.send()
+
+    data = {}    
+    routers = {}
+    for router in Routers:
+        routers[f"{router.name}"] = {}
+        port_id = 0 
+        for port in router.ports:
+            routers[f"{router.name}"][f"port_{str(port_id)}"] = list(port.data.queue)
+            port_id+= 1
+    data['routers'] = routers
+    return data
+
+
 """
 while(True):
         time.sleep(0.2)

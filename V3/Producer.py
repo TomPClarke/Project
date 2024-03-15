@@ -41,6 +41,15 @@ class Producer(End_Node):
         path =[]
         current = self.Producer_Nearest_Router[self.name].copy()
         target = self.Consumer_Nearest_Router[dest].copy()
+
+        while(current[1] != target[1]):
+            if(current[1] > target[1]):
+                current[1] -= 1
+                path.append("DOWN")
+            elif(current[1] < target[1]):
+                current[1] += 1
+                path.append("UP")
+
         #sort out X
         while(current[0] != target[0]):
             if(current[0] > target[0]):
@@ -50,13 +59,13 @@ class Producer(End_Node):
                 current[0] += 1
                 path.append("RIGHT")
         #sort out Y
-        while(current[1] != target[1]):
-            if(current[1] > target[1]):
-                current[1] -= 1
-                path.append("DOWN")
-            elif(current[1] < target[1]):
-                current[1] += 1
-                path.append("UP")
+#        while(current[1] != target[1]):
+#            if(current[1] > target[1]):
+#                current[1] -= 1
+#                path.append("DOWN")
+#            elif(current[1] < target[1]):
+#                current[1] += 1
+#                path.append("UP")
         path.append(dest)
         return path
     
