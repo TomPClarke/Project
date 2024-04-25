@@ -1,5 +1,4 @@
 from NODES import Routers, Consumers, Producers
-
 def FM(name):
     global Consumers, Producers, Routers
     if(name[0].upper() == "R"):

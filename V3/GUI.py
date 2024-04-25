@@ -11,6 +11,7 @@ from WORMHOLE import getJSONGUI
 class Window(object):
     def __init__(self, MainWindow):
         self.Window = MainWindow
+        self.clock_tick = 0
 
         #Paste UI Generated Code here
         MainWindow.setObjectName("MainWindow")
@@ -1348,6 +1349,15 @@ class Window(object):
         self.Buffer_Slave_5.raise_()
         self.Buffer_DOWN_9.raise_()
         self.Buffer_UP_9.raise_()
+        self.widget = QtWidgets.QWidget(self.centralwidget)
+        self.widget.setGeometry(QtCore.QRect(10, 10, 401, 111))
+        self.widget.setObjectName("widget")
+        self.Timer = QtWidgets.QLabel(self.widget)
+        self.Timer.setGeometry(QtCore.QRect(0, 0, 401, 91))
+        font = QtGui.QFont()
+        font.setPointSize(36)
+        self.Timer.setFont(font)
+        self.Timer.setObjectName("Timer")
         self.Rout2.raise_()
         self.Rout3.raise_()
         self.Rout5.raise_()
@@ -1369,6 +1379,7 @@ class Window(object):
         self.widget_50.raise_()
         self.widget_9.raise_()
         self.widget_12.raise_()
+        self.widget.raise_()
         MainWindow.setCentralWidget(self.centralwidget)
         self.menubar = QtWidgets.QMenuBar(MainWindow)
         self.menubar.setGeometry(QtCore.QRect(0, 0, 1920, 22))
@@ -1408,7 +1419,7 @@ class Window(object):
         buffer_points = self.Get_Sorted_Buffer_points(Buffer)
         for buffer_point in buffer_points:
             color = colors[counter]
-            if(color == "FREE"): color = "pink"
+            if(color.startswith("FREE")): color = "pink"
             if(color[0] in ["C","D","U","L","R"]): color = "purple"
             buffer_point.setStyleSheet(f"background-color:{color}")
             counter+= 1
@@ -1436,11 +1447,13 @@ class Window(object):
                 elif(child.objectName()[:12] == "Buffer_Slave"):
                     colors = self.Get_Colors(routers[name]['port_0'],routers[name]['port_1'])
                     self.Color_Buffers(child, colors)
+        #This is a bodge, go over and make sure there is only one global clock tick
+        self.clock_tick+= 1
+        self.Timer.setText(f"Clock Tick: {self.clock_tick}")
 
     def keyPressEvent(self, event):
         if(event.key() == Qt.Key.Key_Space):
             self.UpdateGUI(getJSONGUI())
-            print("Space pressed")
         if(event.key() == Qt.Key.Key_Q):
            self.widget_10.setStyleSheet(f"background-color: blue")
         if(event.key() == Qt.Key.Key_E):

@@ -2,7 +2,9 @@
 
 MAX_LINE_LENGTH = 128
 
-
+first_time = True
+clock_tick = 0
+import globals
 from Tools import FM
 from NODES import Routers, Consumers, Producers
 import keyboard, time, random
@@ -10,8 +12,6 @@ import keyboard, time, random
 
 #How are you going to test this code?
 
-first_time = True
-clock_tick = 0
 def update_UI():
     #When I make a GUI, this is just going to return a JSON of the status of the nodes.
     global first_time, clock_tick
@@ -56,13 +56,13 @@ Chip Layout:
 
 FM("Rout0").declare_table([FM("Rout1"),FM("Rout5"),FM("Rout7"),FM("Rout3")  ],FM("Con3"))
 FM("Rout1").declare_table([FM("Rout1"),FM("Rout0"),FM("Rout8"),FM("Rout2")  ],FM("Con2"))
-FM("Rout2").declare_table([FM("Rout2"),FM("Rout3"),FM("Rout1"),FM("Rout2")  ],)
-FM("Rout3").declare_table([FM("Rout2"),FM("Rout4"),FM("Rout0"),FM("Rout3")  ],)
+FM("Rout2").declare_table([FM("Rout2"),FM("Rout3"),FM("Rout1"),FM("Rout2")  ],FM("Prod0"))
+FM("Rout3").declare_table([FM("Rout2"),FM("Rout4"),FM("Rout0"),FM("Rout3")  ],FM("Prod4"))
 FM("Rout4").declare_table([FM("Rout3"),FM("Rout4"),FM("Rout5"),FM("Rout4")  ],FM("Con0"))
-FM("Rout5").declare_table([FM("Rout0"),FM("Rout5"),FM("Rout6"),FM("Rout4")  ],)
+FM("Rout5").declare_table([FM("Rout0"),FM("Rout5"),FM("Rout6"),FM("Rout4")  ],FM("Prod1"))
 FM("Rout6").declare_table([FM("Rout7"),FM("Rout6"),FM("Rout6"),FM("Rout5")  ],FM("Con1"))
-FM("Rout7").declare_table([FM("Rout8"),FM("Rout6"),FM("Rout7"),FM("Rout0")  ],)
-FM("Rout8").declare_table([FM("Rout8"),FM("Rout7"),FM("Rout8"),FM("Rout1")  ])
+FM("Rout7").declare_table([FM("Rout8"),FM("Rout6"),FM("Rout7"),FM("Rout0")  ],FM("Prod3"))
+FM("Rout8").declare_table([FM("Rout8"),FM("Rout7"),FM("Rout8"),FM("Rout1")  ],FM("Prod2"))
 
 #I think this is probably redudant, code above could handle masters and slaves
 FM("Con0").declare_master(FM("Rout4"))
@@ -80,11 +80,20 @@ update_UI()
 ###### Task Scheduler ######
 def Run_task_scheduler():
     global clock_tick
-    if(clock_tick % 5 == 2):
-        FM("Prod0").produce_message(['red','red',],"Con1",1)
+    #for x in FM("Rout2").ports:
+    #    print(x.direction)
+    if(clock_tick % 8 == 2):
+        FM("Prod0").produce_message(['red','red'],"Con1", clock_tick, 1)
     if(clock_tick % 8 == 4):
         FM("Prod3").produce_message(['yellow','yellow'],"Con2",1)
-    if(clock_tick % 15 == 0):
+    if(clock_tick % 12 == 5):
+        FM("Prod1").produce_message(['green','green','green','green'],"Con2",1)
+        #FM("Prod4").produce_message(['blue','blue','blue','blue'],"Con2",1)
+    if(clock_tick % 12 == 5):
+        FM("Prod4").produce_message(['blue','blue','blue','blue'],"Con2",1)
+        FM("Prod1").produce_message(['orange','orange'],"Con3",1)
+        random_tasks()
+        random_tasks()
         random_tasks()
     if(clock_tick % 40 == 0):
         for x in Consumers:
@@ -95,7 +104,7 @@ def Run_task_scheduler():
 def random_tasks():
     string = "Con"
     string += str(random.randint(0,3))
-    random.choice(Producers[1:3]).produce_message(['orange','orange','orange','orange'],string,1)
+    random.choice(Producers[0:3]).produce_message(['orange','orange','orange'],string,random.randint(0,1))
 
 #"""
 ################ THE CLOCK ################
@@ -106,6 +115,7 @@ if __name__ == "__main__":
         if event.name == 'space':
             Run_task_scheduler()
             clock_tick += 1
+            globals.clock_tick+= 1
             for x in Routers:
                 x.hold_on()
             for x in Producers:
@@ -123,6 +133,7 @@ def getJSONGUI():
     global clock_tick
     Run_task_scheduler()
     clock_tick+= 1
+    globals.clock_tick+= 1
     for x in Routers:
         x.hold_on()
     for x in Producers:

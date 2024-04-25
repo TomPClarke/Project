@@ -4200,6 +4200,34 @@
     <zorder>Buffer_DOWN_9</zorder>
     <zorder>Buffer_UP_9</zorder>
    </widget>
+   <widget class="QWidget" name="widget" native="true">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>401</width>
+      <height>111</height>
+     </rect>
+    </property>
+    <widget class="QLabel" name="Timer">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>401</width>
+       <height>91</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>36</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>Clock Tick: 100000</string>
+     </property>
+    </widget>
+   </widget>
    <zorder>Rout2</zorder>
    <zorder>Rout3</zorder>
    <zorder>Rout5</zorder>
@@ -4221,6 +4249,7 @@
    <zorder>widget_50</zorder>
    <zorder>widget_9</zorder>
    <zorder>widget_12</zorder>
+   <zorder>widget</zorder>
   </widget>
   <widget class="QMenuBar" name="menubar">
    <property name="geometry">
