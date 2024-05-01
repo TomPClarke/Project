@@ -7,7 +7,7 @@ from Router import Router
 There are End_Nodes
 Consumers and Producers are End_Nodes
 An End_Node has a name, a master and a buffer.
-Consumers can only recieve data.
+Consumers can only receive data.
 Producers can send data, they can also path-find.
 
 #### Routers ####
@@ -24,8 +24,6 @@ Producers = [Producer("Prod0"),Producer("Prod1"),Producer("Prod2"),Producer("Pro
 Routers = [Router("Rout0"),Router("Rout1"),Router("Rout2"),Router("Rout3"),
            Router("Rout4"),Router("Rout5"),Router("Rout6"),Router("Rout7"), Router("Rout8")]
 # 6x6 Mesh
-Consumers = [Consumer(f"Con{i}") for i in range(16)]
-Producers = [Producer(f"Prod{i}") for i in range(20)]
-Routers = [Router(f"Rout{i}") for i in range(36)]
-for i in Producers:
-    print(i.name)
+#Consumers = [Consumer(f"Con{i}") for i in range(16)]
+#Producers = [Producer(f"Prod{i}") for i in range(20)]
+#Routers = [Router(f"Rout{i}") for i in range(36)]

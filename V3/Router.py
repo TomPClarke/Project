@@ -1,4 +1,6 @@
 from queue import Queue
+from Component import Component
+
 
 class Port():
     def __init__(self):
@@ -8,7 +10,7 @@ class Port():
         self.holding = False
 
 
-class Router():
+class Router(Component):
     def __init__(self,name):
         self.data = Queue()
         self.name = name
@@ -16,7 +18,7 @@ class Router():
         self.direction = "FREE"
         self.ports = [Port(),Port(),Port(),Port(),Port(),Port(),Port(),Port(),Port(),Port()]
         self.credits = [9999,9999,3,3,3,3,3,3,3,3]
-        self.port_order = [0,1,2,3,4,5,6,7,8,9]
+        self.port_order = [1,3,5,7,9,2,4,6,8]
         self.routing = {'UP' : self, #rename to routing_table
                         'DOWN' : self,
                         'LEFT' : self,
@@ -32,14 +34,14 @@ class Router():
             self.routing["SLAVE"] = SLAVE
 
 
-    def recieve(self, flit, port = 0):
+    def receive(self, flit, port = 0):
         if(self.ports[port].direction == "FREE"):
             if(flit in ["DOWN","LEFT","UP","RIGHT"]):
                 self.ports[port].direction = flit
             else:
                 self.ports[port].direction = "SLAVE"
             #Make this return an error if it doesnt get a header flit
-            self.send_credits(port)
+            self.send_credit(port)
         else:
             self.ports[port].data.put(flit)
     #Every router is told: 
@@ -62,7 +64,7 @@ class Router():
     def receive_credit(self, port_num = 0):
         self.credits[port_num]+= 1
 
-    def send_credits(self, port_num):
+    def send_credit(self, port_num):
         #Find out who's buffer we have freed
         if(port_num == 0 or port_num == 1):
             self.routing["SLAVE"].receive_credit((port_num))
@@ -81,22 +83,26 @@ class Router():
         #if(self.name == "Rout3"):print(f"{self.name} :{self.credits} ")
         #if(self.name == "Rout5"):print(f"{self.name} :{self.credits} ")
         port_num = -1
-        used_channels = [] #Change this to used_directions surely
-        new_port_order = []
+        used_directions = []
+        new_port_order_high = []
+        new_port_order_low = []
         for port_num in self.port_order:
             port = self.ports[port_num]
             if(port.direction == "FREE" or port.data.empty() or port.holding):
                 continue
             if(port.landing_port == -1):
                 port.landing_port = self.find_landing_port(port.direction,(port_num % 2))
-            if(port.landing_port in used_channels):
+            if(port.direction in used_directions):
                 continue
-            new_port_order.append(port_num)
+            if(port_num in [0,2,4,5,8]):
+                new_port_order_low.append(port_num)
+            elif(port_num in [1,3,5,7,9]):
+                new_port_order_high.append(port_num)
             if(self.credits[port.landing_port] > 0):
                 flit = port.data.get()
                 self.credits[port.landing_port]-= 1
-                self.routing[port.direction].recieve(flit, port.landing_port)
-                used_channels.append(port.landing_port)
+                used_directions.append(port.direction)
+                self.routing[port.direction].receive(flit, port.landing_port)
                 if(flit.startswith("FREE")):
                     if(port.data.empty()):
                         port.direction = "FREE"
@@ -108,11 +114,12 @@ class Router():
                         else:
                             port.direction = "SLAVE"
                         port.landing_port = -1
-                        self.send_credits(port_num)
-                self.send_credits(port_num)
-            for x in range(10):
-                if(x not in new_port_order):
-                    new_port_order.append(x)
-            self.port_order = new_port_order    
-
+                        self.send_credit(port_num)
+                self.send_credit(port_num)
+        for x in range(5):
+            if((2 * x) not in new_port_order_low):
+                new_port_order_low.append(2 *x)
+            if(((2 * x) +  1) not in new_port_order_high):
+                new_port_order_high.append(2 * x + 1)
+        self.port_order = new_port_order_high + new_port_order_low 
 

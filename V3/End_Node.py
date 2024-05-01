@@ -1,5 +1,6 @@
 from queue import Queue
-class End_Node:
+from Component import Component
+class End_Node(Component):
     def __init__(self,name):
         self.name = name
         self.master = self

@@ -1,9 +1,10 @@
 from End_Node import End_Node
 import globals
 class Consumer(End_Node):
-    def recieve(self, data, port):
+    def receive(self, data, port):
         if(data.startswith("FREE")):
-            print(f"{self.name} received packet. Latency = {int(globals.clock_tick) - int(data[4::])}")
+            globals.packet_latencies += f"{int(globals.clock_tick) - int(data[4::])},"
+            print(f"{int(globals.clock_tick) - int(data[4::])},",end= "")
         if(port == 1):
             #self.master.receive_credit(port)
             return
